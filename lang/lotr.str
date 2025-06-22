@@ -62736,19 +62736,19 @@ END
 
 Version:BuildMachine
 // context: DO NOT TRANSLATE
-"Build machine: Doblek-K"
+"Build machine: %ls"
 END
 
 Version:BuildTime
 // context: DO NOT TRANSLATE
 //"%ls %ls"
-"2025-05-03 22:34:23"
+"2025-04-21 21:59:18"
 END
 
 Version:BuildUser
 // context: DO NOT TRANSLATE
 //"By %ls"
-"By Doblek K"
+"By GameReplays.org"
 END
 
 // Version string for the options screen
@@ -62771,24 +62771,4 @@ Version:Format4
 END
 
 
-//buscar linea: /// Men of the West /// o //not7.0.0 para seguir traduciendo
-//linea 7450
-//Mas mapas lineas: 61107
-//Mas mapas lineas: 61006
-//Mas mapas lineas: 61066
-//Mas mapas lineas: 61197
-//Mas mapas lineas: 61077
-//Mas mapas lineas: 61150
-//Mas mapas lineas: 60707
-//Mas mapas lineas: 61039
-//Mas mapas lineas: 61087
-///Mas mapas lineas: 49940 revisar descripcion por una ? mal colocada
-//Mas mapas lineas: 60787
-//Mas mapas lineas: 60760
-//Mas mapas lineas: 60963
-//Mas mapas lineas: 61132
-//Mas mapas lineas: 61141
-//Mas mapas lineas: 61159
-//Mas mapas lineas: 61048
-//Mas mapas lineas: 61177
-//Mas mapas lineas: 61057
+//buscar linea: //not7.0.0 para seguir traduciendo
