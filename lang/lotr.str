@@ -50804,7 +50804,7 @@ END
 // Note for translators: should faction-neutral 
 //not7.0.0
 UPGRADE:TieredUpgradeImprovedArrows
-"Mejora de flechas"
+"Mejora de Flechas"
 END
 
 //Map Tooltip Edits\\
@@ -51185,7 +51185,7 @@ END
 
 UPGRADE:DwarvenFireArrowUpgrade
 //"Fire Arrows"
-"Flechas de fuego."
+"Flechas de Fuego."
 END
 
 //not7.0.0
@@ -51237,7 +51237,6 @@ CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3
 "Permite la investigación de las mejoras de cotas de mallas de Mithril y proyectiles llameantes\nIncrementa la velocidad a la que se recupera el equipamiento de asedio\n+25% a la velocidad de reclutamiento\nAñade una torre de hachas defensiva"
 END
 
-//not7.0.0
 TOOLTIP:LackLevel2TavernForgedBlades
 //"Requires Level 2 Tavern"
 "Requiere Taberna de Nivel 2"
@@ -51320,12 +51319,10 @@ TOOLTIP:LackDwarvenSiegeHammer
 "Investiga la mejora en la forja para desbloquear este equipamiento\nCuando está equipado, proporciona daño de área y aumenta bastante el daño realizado a las estructuras pero reduce el daño causado a las unidades"
 END
 
-//not7.0.0
 ToolTip:LackArcheryLevel1Range
 "Requiere la presencia de un Campo de Tiro con Arco"
 END
 
-//not7.0.0
 ToolTip:LackDwarvenBasicTrainingForBattleWagons
 //"Requires research of the Banner Carriers upgrade"
 "Requiere investigar la mejora de Portaestandartes"
@@ -51349,25 +51346,22 @@ CONTROLBAR:TooltipCAH_SummonFamiliar_Level3
 "El héroe convoca una bandada de pájaros que revela personajes ocultos y detecta el sigilo\nTipo modificador: Debuff Activo\nLos enemigos cercanos sufren -25% al daño y -20% a la armadura\nAnula el Liderazgo enemigo\nNo se acumula con otros Debuffs"
 END
 
-//not7.0.0
 CONTROLBAR:LieutenantsFavor
 "Di&sciplina Or&c"
 END
 
-//not7.0.0
 CONTROLBAR:ThranduilHiddenHunter
 "Capa &Élfica"
 END
 
-//not7.0.0
 CONTROLBAR:MirkwoodArcherHiddenHunter
 "Cazador &Oculto"
 END
 
-//not7.0.0
+//no_good
 OBJECT:LairFoundation
 //"Creep Lair Foundation"
-"Cimiento de Guarida"
+"Guaridas de Criaturas"
 END
 
 //not7.0.0
@@ -51388,22 +51382,18 @@ CONTROLBAR:UAWargLair
 "Guarida de Huargos"
 END
 
-//not7.0.0
 CONTROLBAR:UASpiderLair
 "Guarida de Arañas"
 END
 
-//not7.0.0
 CONTROLBAR:UAWightLair
 "Guarida de Tumularios"
 END
 
-//not7.0.0
 CONTROLBAR:UATrollLair
 "Guarida de Trolls de Cueva"
 END
 
-//not7.0.0
 CONTROLBAR:UADrakeLair
 "Guarida de Dracos"
 END
@@ -52311,7 +52301,8 @@ END
 
 //not7.0.0
 TOOLTIP:Faramir
-"Damage Type: Hero / Hero Ranged \n Crush Damage: 160 (Crush) \n Ranged Attack Speed: 1.2-1.6s \n Melee Attack Speed: 1.2s \n Movement Speed: 50 \n Mounted Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 500"
+//"Damage Type: Hero / Hero Ranged \n Crush Damage: 160 (Crush) \n Ranged Attack Speed: 1.2-1.6s \n Melee Attack Speed: 1.2s \n Movement Speed: 50 \n Mounted Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de daño: Heroe / Heroe a distancia \n Daño por embestida: 160 (embestida) \n Velocidad de ataque a distancia: 1.2-1.6 s \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Velocidad de movimiento: 50 \n Velocidad montado: 100 \n Alcance del arco: 350 \n Rango de vision: 500"
 END
 
 //not7.0.0
@@ -52400,477 +52391,567 @@ END
 
 /// Elves ///
 
-//notfinished
-
 //not7.0.0
 TOOLTIP:Arwen
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.2s \n Movement Speed: 60 \n Mounted Movement Speed: 110 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.2s \n Movement Speed: 60 \n Mounted Movement Speed: 110 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Daño por embestida: 160 (embestida) \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Velocidad de movimiento: 60 \n Velocidad montada: 110 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Glorfindel
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1s \n Splash Damage Radius: 10 \n Movement Speed: 60 \n Mounted Movement Speed: 110 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1s \n Splash Damage Radius: 10 \n Movement Speed: 60 \n Mounted Movement Speed: 110 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Daño por embestida: 160 (embestida) \n Velocidad de ataque cuerpo a cuerpo: 1 s \n Radio de daño de salpicadura: 10 \n Velocidad de movimiento: 60 \n Velocidad montada: 110 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Elrond
-"Damage Type: Hero \n Melee Attack Speed: 1.3s \n Splash Damage Radius: 10 \n Movement Speed: 60 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.3s \n Splash Damage Radius: 10 \n Movement Speed: 60 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.3 s \n Radio de daño de salpicadura: 10 \n Velocidad de movimiento: 60 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Treebeard
-"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8.2s \n Melee Attack Speed: 3.1s \n Rock Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Movement Speed: 58 \n Rock Throw Range: 500 \n Vision Range: 650"
+//"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8.2s \n Melee Attack Speed: 3.1s \n Rock Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Movement Speed: 58 \n Rock Throw Range: 500 \n Vision Range: 650"
+"Tipo de daño: Asedio \n Daño por embestida: 1000 (embestida) \n Velocidad de ataque a distancia: 8.2 s \n Velocidad de ataque cuerpo a cuerpo: 3.1 s \n Radio de daño de salpicadura de roca: 50 \n Radio de daño de salpicadura cuerpo a cuerpo: 50 \n Velocidad de movimiento: 58 \n Alcance de lanzamiento de roca: 500 \n Rango de visión: 650"
 END
 
 //not7.0.0
 TOOLTIP:Galadriel
-"Damage Type: Magic / Siege \n Melee Attack Speed: 1.05 \n Splash Damage Radius: 75 \n Movement Speed: 65 \n Vision Range: 300"
+//"Damage Type: Magic / Siege \n Melee Attack Speed: 1.05 \n Splash Damage Radius: 75 \n Movement Speed: 65 \n Vision Range: 300"
+"Tipo de daño: Mágico / Asedio \n Velocidad de ataque cuerpo a cuerpo: 1.05 s \n Radio de daño de salpicadura: 75 \n Velocidad de movimiento: 65 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:LorienWarriors
-"Damage Type: Slash \n Health: 220 \n Melee Damage: 55 (Slash) \n Upgraded Melee Damage: 110 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 500"
+//"Damage Type: Slash \n Health: 220 \n Melee Damage: 55 (Slash) \n Upgraded Melee Damage: 110 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 500"
+"Tipo de daño: Corte \n Salud: 220 \n Daño cuerpo a cuerpo: 55 (corte) \n Daño cuerpo a cuerpo mejorado: 110 (corte) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 55 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:MithlondSentries
-"Damage Type: Specialist \n Health: 250 \n Melee Damage: 55 (Specialist) \n Upgraded Melee Damage: 110 (Specialist) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 500"
+//"Damage Type: Specialist \n Health: 250 \n Melee Damage: 55 (Specialist) \n Upgraded Melee Damage: 110 (Specialist) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 500"
+"Tipo de daño: Especialista \n Salud: 250 \n Daño cuerpo a cuerpo: 55 (especialista) \n Daño cuerpo a cuerpo mejorado: 110 (especialista) \n Velocidad de ataque cuerpo a cuerpo: 1.6 s \n Velocidad de movimiento: 50 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:MirkwoodArchers
-"Damage Type: Pierce \n Health: 280 \n Ranged Damage: 100 (Pierce) \n Upgraded Ranged Damage: 110 (Pierce) & 40 (Magic) \n Ranged Attack Speed: 0.8-1.2s \n Movement Speed: 55 \n Bow Range: 425 \n Vision Range: 700"
+//"Damage Type: Pierce \n Health: 280 \n Ranged Damage: 100 (Pierce) \n Upgraded Ranged Damage: 110 (Pierce) & 40 (Magic) \n Ranged Attack Speed: 0.8-1.2s \n Movement Speed: 55 \n Bow Range: 425 \n Vision Range: 700"
+"Tipo de daño: Perforante \n Salud: 280 \n Daño a distancia: 100 (perforante) \n Daño a distancia mejorado: 110 (perforante) y 40 (mágico) \n Velocidad de ataque a distancia: 0.8-1.2 s \n Velocidad de movimiento: 55 \n Alcance del arco: 425 \n Rango de visión: 700"
 END
 
 //not7.0.0
 TOOLTIP:NoldorWarriors
-"Damage Type: Pierce & Magic / Hero \n Health: 600 \n Ranged Damage: 240 (Pierce) & 40 (Magic) \n Melee Damage: 120 (Hero) \n Ranged Attack Speed: 1.2-1.7s \n Melee Attack Speed: 1.7s \n Movement Speed: 55 \n Bow Range: 450 \n Vision Range: 700"
+//"Damage Type: Pierce & Magic / Hero \n Health: 600 \n Ranged Damage: 240 (Pierce) & 40 (Magic) \n Melee Damage: 120 (Hero) \n Ranged Attack Speed: 1.2-1.7s \n Melee Attack Speed: 1.7s \n Movement Speed: 55 \n Bow Range: 450 \n Vision Range: 700"
+"Tipo de daño: Perforante y Mágico / Héroe \n Salud: 600 \n Daño a distancia: 240 (perforante) y 40 (mágico) \n Daño cuerpo a cuerpo: 120 (héroe) \n Velocidad de ataque a distancia: 1.2-1.7 s \n Velocidad de ataque cuerpo a cuerpo: 1.7 s \n Velocidad de movimiento: 55 \n Alcance del arco: 450 \n Rango de visión: 700"
 END
 
 //not7.0.0
 TOOLTIP:RivendellLancers
-"Damage Type: Cavalry \n Health: 350 \n Melee Damage: 75 (Cavalry) \n Crush Damage: 100 (Crush) \n Upgraded Melee Damage: 131 (Cavalry) \n Melee Attack Speed: 1.5s \n Movement Speed: 100 \n Vision Range: 500"
+//"Damage Type: Cavalry \n Health: 350 \n Melee Damage: 75 (Cavalry) \n Crush Damage: 100 (Crush) \n Upgraded Melee Damage: 131 (Cavalry) \n Melee Attack Speed: 1.5s \n Movement Speed: 100 \n Vision Range: 500"
+"Tipo de daño: Caballería \n Salud: 350 \n Daño cuerpo a cuerpo: 75 (caballería) \n Daño por embestida: 100 (embestida) \n Daño cuerpo a cuerpo mejorado: 131 (caballería) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 100 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:LindonArchers
-"Damage Type: Pierce \n Health: 300 \n Ranged Damage: 40 (Pierce) \n Crush Damage: 80 (Crush) \n Upgraded Ranged Damage: 60 (Pierce) & 20 (Magic) \n Ranged Attack Speed: 1.25-1.75s \n Movement Speed: 105 \n Bow Range: 350 \n Vision Range: 500"
+//"Damage Type: Pierce \n Health: 300 \n Ranged Damage: 40 (Pierce) \n Crush Damage: 80 (Crush) \n Upgraded Ranged Damage: 60 (Pierce) & 20 (Magic) \n Ranged Attack Speed: 1.25-1.75s \n Movement Speed: 105 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de daño: Perforante \n Salud: 300 \n Daño a distancia: 40 (perforante) \n Daño por embestida: 80 (embestida) \n Daño a distancia mejorado: 60 (perforante) y 20 (mágico) \n Velocidad de ataque a distancia: 1.25-1.75 s \n Velocidad de movimiento: 105 \n Alcance del arco: 350 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:Ent
-"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8.2s \n Melee Attack Speed: 3.1s \n Rock Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Movement Speed: 50 \n Rock Throw Range: 500 \n Vision Range: 650"
+//"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8.2s \n Melee Attack Speed: 3.1s \n Rock Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Movement Speed: 50 \n Rock Throw Range: 500 \n Vision Range: 650"
+"Tipo de daño: Asedio \n Daño por embestida: 1000 (embestida) \n Velocidad de ataque a distancia: 8.2 s \n Velocidad de ataque cuerpo a cuerpo: 3.1 s \n Radio de daño de salpicadura de roca: 50 \n Radio de daño de salpicadura cuerpo a cuerpo: 50 \n Velocidad de movimiento: 50 \n Alcance de lanzamiento de roca: 500 \n Rango de visión: 650"
 END
 
 //not7.0.0
 TOOLTIP:MeleeEnt
-"Damage Type: Siege \n Crush Damage: 40 (Crush) \n Melee Attack Speed: 2.5s \n Melee Splash Damage Radius: 55 \n Movement Speed: 60 \n Vision Range: 650"
+//"Damage Type: Siege \n Crush Damage: 40 (Crush) \n Melee Attack Speed: 2.5s \n Melee Splash Damage Radius: 55 \n Movement Speed: 60 \n Vision Range: 650"
+"Tipo de daño: Asedio \n Daño por embestida: 40 (embestida) \n Velocidad de ataque cuerpo a cuerpo: 2.5 s \n Radio de daño de salpicadura cuerpo a cuerpo: 55 \n Velocidad de movimiento: 60 \n Rango de visión: 650"
 END
 
 //not7.0.0
 TOOLTIP:FortressEagle
-"Damage Type: Siege \n Splash Damage Radius: 30 \n Movement Speed: 90 \n Vision Range: 600"
+//"Damage Type: Siege \n Splash Damage Radius: 30 \n Movement Speed: 90 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Radio de daño de salpicadura: 30 \n Velocidad de movimiento: 90 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:RohanPeasants
-"Damage Type: Slash \n Health: 150 \n Melee Damage: 50 (Slash) \n Upgraded Melee Damage: 100 (Slash) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 175"
+//"Damage Type: Slash \n Health: 150 \n Melee Damage: 50 (Slash) \n Upgraded Melee Damage: 100 (Slash) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 175"
+"Tipo de daño: Corte \n Salud: 150 \n Daño cuerpo a cuerpo: 50 (corte) \n Daño cuerpo a cuerpo mejorado: 100 (corte) \n Velocidad de ataque cuerpo a cuerpo: 1.6 s \n Velocidad de movimiento: 50 \n Rango de visión: 175"
 END
 
 /// Dwarves ///
 
 //not7.0.0
 TOOLTIP:KingBrand
-"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.2-1.6s \n Melee Attack Speed: 1.2s \n Movement Speed: 50 \n Bow Range: 350 \n Vision Range: 500"
+//"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.2-1.6s \n Melee Attack Speed: 1.2s \n Movement Speed: 50 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de daño: Héroe a distancia / Héroe \n Velocidad de ataque a distancia: 1.2-1.6 s \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Velocidad de movimiento: 50 \n Alcance del arco: 350 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:Gloin
-"Damage Type: Hero \n Melee Attack Speed: 1.03s \n Movement Speed: 45 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.03s \n Movement Speed: 45 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.03 s \n Velocidad de movimiento: 45 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Dain
-"Damage Type: Hero \n Melee Attack Speed: 1.3s \n Movement Speed: 45 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.3s \n Movement Speed: 45 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.3 s \n Velocidad de movimiento: 45 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Gimli
-"Damage Type: Hero \n Melee Attack Speed: 1.03s \n Movement Speed: 45 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.03s \n Movement Speed: 45 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.03 s \n Velocidad de movimiento: 45 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Guardians
-"Damage Type: Slash \n Health: 280 \n Melee Damage: 60 (Slash) \n Siege Hammers Melee Damage: 70 (Slash) \n Siege Hammers Splash Damage Radius: 10 \n Siege Hammers Melee Structure Damage: 25 (Siege) \n Upgraded Melee Damage: 120 \n Melee Attack Speed: 1.5s \n Movement Speed: 40 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 280 \n Melee Damage: 60 (Slash) \n Siege Hammers Melee Damage: 70 (Slash) \n Siege Hammers Splash Damage Radius: 10 \n Siege Hammers Melee Structure Damage: 25 (Siege) \n Upgraded Melee Damage: 120 \n Melee Attack Speed: 1.5s \n Movement Speed: 40 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 280 \n Daño cuerpo a cuerpo: 60 (corte) \n Daño cuerpo a cuerpo con martillos de asedio: 70 (corte) \n Radio de daño de salpicadura con martillos de asedio: 10 \n Daño cuerpo a cuerpo a estructuras con martillos de asedio: 25 (asedio) \n Daño cuerpo a cuerpo mejorado: 120 \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 40 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:Phalanxes
-"Damage Type: Specialist \n Health: 325 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 40 \n Vision Range: 400"
+//"Damage Type: Specialist \n Health: 325 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 40 \n Vision Range: 400"
+"Tipo de daño: Especialista \n Salud: 325 \n Daño cuerpo a cuerpo: 60 (especialista) \n Daño cuerpo a cuerpo mejorado: 120 (especialista) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 40 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:Zealots
-"Damage Type: Hero \n Health: 1000 \n Melee Damage: 200 (Hero) \n Melee Attack Speed: 1.5s \n Knockback Splash Radius: 10 \n Movement Speed: 65 \n Vision Range: 400"
+//"Damage Type: Hero \n Health: 1000 \n Melee Damage: 200 (Hero) \n Melee Attack Speed: 1.5s \n Knockback Splash Radius: 10 \n Movement Speed: 65 \n Vision Range: 400"
+"Tipo de daño: Héroe \n Salud: 1000 \n Daño cuerpo a cuerpo: 200 (héroe) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Radio de retroceso por salpicadura: 10 \n Velocidad de movimiento: 65 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:MenofDale
-"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 75 (Pierce) \n Upgraded Ranged Damage: 100 (Pierce) & 20 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 380 \n Vision Range: 550"
+//"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 75 (Pierce) \n Upgraded Ranged Damage: 100 (Pierce) & 20 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 380 \n Vision Range: 550"
+"Tipo de daño: Perforante \n Salud: 250 \n Daño a distancia: 75 (perforante) \n Daño a distancia mejorado: 100 (perforante) y 20 (llama) \n Velocidad de ataque a distancia: 1.5-2 s \n Velocidad de movimiento: 50 \n Alcance del arco: 380 \n Rango de visión: 550"
 END
 
 //not7.0.0
 TOOLTIP:Demolisher
-"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Melee Attack Speed: 4.3s \n Movement Speed: 40 \n Vision Range: 200"
+//"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Melee Attack Speed: 4.3s \n Movement Speed: 40 \n Vision Range: 200"
+"Tipo de daño: Asedio \n Daño por embestida: 1000 (embestida) \n Velocidad de ataque cuerpo a cuerpo: 4.3 s \n Velocidad de movimiento: 40 \n Rango de visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:IronHillsCatapult
-"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Flame) \n Ranged Attack Speed: 6.8s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+//"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Flame) \n Ranged Attack Speed: 6.8s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Daño a distancia mejorado: 900 (asedio) y 600 (llama) \n Velocidad de ataque a distancia: 6.8 s \n Radio de daño de salpicadura: 50 \n Velocidad de movimiento: 40 \n Alcance de asedio: 500 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:IronHillsCatapultExpansion
-"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Flame) \n Ranged Attack Speed: 6.8s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+//"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Flame) \n Ranged Attack Speed: 6.8s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Daño a distancia mejorado: 900 (asedio) y 600 (llama) \n Velocidad de ataque a distancia: 6.8 s \n Radio de daño de salpicadura: 50 \n Velocidad de movimiento: 0 \n Alcance de asedio: 525 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:Hobbits
-"Damage Type: Slash / Hero \n Health: 140 \n Melee Damage: 60 (Slash) \n Ranged Damage: 80 (Force) \n Melee Attack Speed: 1.4s \n Ranged Attack Speed: 2.2s \n Movement Speed: 45 \n Vision Range: 175"
+//"Damage Type: Slash / Hero \n Health: 140 \n Melee Damage: 60 (Slash) \n Ranged Damage: 80 (Force) \n Melee Attack Speed: 1.4s \n Ranged Attack Speed: 2.2s \n Movement Speed: 45 \n Vision Range: 175"
+"Tipo de daño: Corte / Héroe \n Salud: 140 \n Daño cuerpo a cuerpo: 60 (corte) \n Daño a distancia: 80 (fuerza) \n Velocidad de ataque cuerpo a cuerpo: 1.4 s \n Velocidad de ataque a distancia: 2.2 s \n Velocidad de movimiento: 45 \n Rango de visión: 175"
 END
 
 /// Isengard ///
 
 //not7.0.0
 TOOLTIP:Wormtongue
-"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.6 s \n Velocidad de movimiento: 55 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Sharku
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Mounted Movement Speed: 100 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Mounted Movement Speed: 100 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Daño por embestida: 160 \n Velocidad de ataque cuerpo a cuerpo: 1.6 s \n Radio de daño de salpicadura: 10 \n Velocidad de movimiento montado: 100 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Lurtz
-"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.46-1.66s \n Melee Attack Speed: 1.2s \n Carnage Splash Damage Radius: 15 \n Movement Speed: 55 \n Bow Range: 320 \n Vision Range: 500"
+//"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.46-1.66s \n Melee Attack Speed: 1.2s \n Carnage Splash Damage Radius: 15 \n Movement Speed: 55 \n Bow Range: 320 \n Vision Range: 500"
+"Tipo de daño: Héroe a distancia / Héroe \n Velocidad de ataque a distancia: 1.46-1.66 s \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Radio de daño de salpicadura carnicería: 15 \n Velocidad de movimiento: 55 \n Alcance del arco: 320 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:Saruman
-"Damage Type: Hero \n Melee Attack Speed: 2.66s \n Splash Damage Radius: 10 \n Movement Speed: 55 \n Vision Range: 300 \n \n Saruman of Many Colors \n Requires Level 5 \n Allies near Saruman become immune to Fear and Terror \n Radius: 200"
+//"Damage Type: Hero \n Melee Attack Speed: 2.66s \n Splash Damage Radius: 10 \n Movement Speed: 55 \n Vision Range: 300 \n \n Saruman of Many Colors \n Requires Level 5 \n Allies near Saruman become immune to Fear and Terror \n Radius: 200"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 2.66 s \n Radio de daño: 10 \n Velocidad de movimiento: 55 \n Rango de visión: 300 \n \n Saruman \n Requiere nivel 5 \n Los aliados cercanos a Saruman se vuelven inmunes a Miedo y Terror \n Radio: 200"
 END
 
 //not7.0.0
 TOOLTIP:UrukWarriors
-"Damage Type: Slash \n Health: 280 \n Melee Damage: 73 (Slash) \n Upgraded Melee Damage: 146 (Slash) \n Melee Attack Speed: 2s \n Movement Speed: 55 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 280 \n Melee Damage: 73 (Slash) \n Upgraded Melee Damage: 146 (Slash) \n Melee Attack Speed: 2s \n Movement Speed: 55 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 280 \n Daño cuerpo a cuerpo: 73 (corte) \n Daño cuerpo a cuerpo mejorado: 146 (corte) \n Velocidad de ataque cuerpo a cuerpo: 2 s \n Velocidad de movimiento: 55 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:UrukCrossbowmen
-"Damage Type: Pierce \n Health: 180 \n Ranged Damage: 55 (Pierce) \n Upgraded Ranged Damage: 80 (Pierce) & 20 (Flame) \n Ranged Attack Speed: 2s \n Movement Speed: 55 \n Bow Range: 300 \n Upgraded Bow Range: 360 \n Vision Range: 550"
+//"Damage Type: Pierce \n Health: 180 \n Ranged Damage: 55 (Pierce) \n Upgraded Ranged Damage: 80 (Pierce) & 20 (Flame) \n Ranged Attack Speed: 2s \n Movement Speed: 55 \n Bow Range: 300 \n Upgraded Bow Range: 360 \n Vision Range: 550"
+"Tipo de daño: Perforante \n Salud: 180 \n Daño a distancia: 55 (perforante) \n Daño a distancia mejorado: 80 (perforante) y 20 (llama) \n Velocidad de ataque a distancia: 2 s \n Velocidad de movimiento: 55 \n Alcance del arco: 300 \n Alcance del arco mejorado: 360 \n Rango de visión: 550"
 END
 
 //not7.0.0
 TOOLTIP:UrukPikemen
-"Damage Type: Specialist \n Health: 300 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 400"
+//"Damage Type: Specialist \n Health: 300 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 400"
+"Tipo de daño: Especialista \n Salud: 300 \n Daño cuerpo a cuerpo: 60 (especialista) \n Daño cuerpo a cuerpo mejorado: 120 (especialista) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 55 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:UrukBerserker
-"Damage Type: Hero \n Melee Attack Speed: 1.2s \n Splash Damage Radius: 15 \n Movement Speed: 55 \n Vision Range: 400"
+//"Damage Type: Hero \n Melee Attack Speed: 1.2s \n Splash Damage Radius: 15 \n Movement Speed: 55 \n Vision Range: 400"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Radio de daño de salpicadura: 15 \n Velocidad de movimiento: 55 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:WildmenofDunland
-"Damage Type: Slash \n Health: 150 \n Melee Damage: 40 (Slash) \n Upgraded Melee Damage: 40 (Slash) & 13 (Flame) \n Garrisoned Ranged Damage: 40 (Force) \n Upgraded Garrisoned Ranged Damage: 40 (Force) & 40 (Flame) \n Melee Attack Speed: 1.2s \n Movement Speed: 55 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 150 \n Melee Damage: 40 (Slash) \n Upgraded Melee Damage: 40 (Slash) & 13 (Flame) \n Garrisoned Ranged Damage: 40 (Force) \n Upgraded Garrisoned Ranged Damage: 40 (Force) & 40 (Flame) \n Melee Attack Speed: 1.2s \n Movement Speed: 55 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 150 \n Daño cuerpo a cuerpo: 40 (corte) \n Daño cuerpo a cuerpo mejorado: 40 (corte) y 13 (llama) \n Daño a distancia en guarnición: 40 (fuerza) \n Daño a distancia en guarnición mejorado: 40 (fuerza) y 40 (llama) \n Velocidad de ataque cuerpo a cuerpo: 1.2 s \n Velocidad de movimiento: 55 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:WildmenAxeThrowers
-"Damage Type: Slash \n Health: 200 \n Ranged Damage: 45 (Slash) \n Upgraded Ranged Damage: 60 (Slash) \n Ranged Attack Speed: 2.33s \n Movement Speed: 55 \n Axe Throw Range: 275 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 200 \n Ranged Damage: 45 (Slash) \n Upgraded Ranged Damage: 60 (Slash) \n Ranged Attack Speed: 2.33s \n Movement Speed: 55 \n Axe Throw Range: 275 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 200 \n Daño a distancia: 45 (corte) \n Daño a distancia mejorado: 60 (corte) \n Velocidad de ataque a distancia: 2.33 s \n Velocidad de movimiento: 55 \n Alcance de lanzamiento de hacha: 275 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:WargPack
-"Damage Type: Cavalry \n Health: 275 \n Melee Damage: 60 (Cavalry) \n Melee Attack Speed: 1.86s \n Movement Speed: 100 \n Vision Range: 400"
+//"Damage Type: Cavalry \n Health: 275 \n Melee Damage: 60 (Cavalry) \n Melee Attack Speed: 1.86s \n Movement Speed: 100 \n Vision Range: 400"
+"Tipo de daño: Caballería \n Salud: 275 \n Daño cuerpo a cuerpo: 60 (caballería) \n Velocidad de ataque cuerpo a cuerpo: 1.86 s \n Velocidad de movimiento: 100 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:WargSentryWarg
-"Damage Type: Cavalry \n Melee Attack Speed: 1.8s \n Movement Speed: 105 \n Vision Range: 200"
+//"Damage Type: Cavalry \n Melee Attack Speed: 1.8s \n Movement Speed: 105 \n Vision Range: 200"
+"Tipo de daño: Caballería \n Velocidad de ataque cuerpo a cuerpo: 1.8 s \n Velocidad de movimiento: 105 \n Rango de visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:IsengardBatteringRam
-"Damage Type: Siege \n Melee Attack Speed: 4.3s \n Movement Speed: 45 \n Vision Range: 250"
+//"Damage Type: Siege \n Melee Attack Speed: 4.3s \n Movement Speed: 45 \n Vision Range: 250"
+"Tipo de daño: Asedio \n Velocidad de ataque cuerpo a cuerpo: 4.3 s \n Velocidad de movimiento: 45 \n Rango de visión: 250"
 END
 
 //not7.0.0
 TOOLTIP:Ballista
-"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+//"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Attack Speed: 8s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Daño por embestida: 1000 (embestida) \n Velocidad de ataque a distancia: 8 s \n Radio de daño de salpicadura: 50 \n Velocidad de movimiento: 40 \n Alcance de asedio: 500 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:BallistaExpansion
-"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 500 (Flame) \n Ranged Attack Speed: 8s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+//"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 500 (Flame) \n Ranged Attack Speed: 8s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Daño a distancia mejorado: 900 (asedio) y 500 (llama) \n Velocidad de ataque a distancia: 8 s \n Radio de daño de salpicadura: 50 \n Velocidad de movimiento: 0 \n Alcance de asedio: 525 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:ExplosiveMine
-"Damage Type: Siege \n Detonation Timer: 20s \n Splash Damage Radius: 125 \n Movement Speed: 45 \n Vision Range: 25"
+//"Damage Type: Siege \n Detonation Timer: 20s \n Splash Damage Radius: 125 \n Movement Speed: 45 \n Vision Range: 25"
+"Tipo de daño: Asedio \n Temporizador de detonación: 20 s \n Radio de daño de salpicadura: 125 \n Velocidad de movimiento: 45 \n Rango de visión: 25"
 END
 
 /// Mordor ///
 
 //not7.0.0
 TOOLTIP:Gothmog
-"Damage Type: Hero \n Melee Attack Speed: 1.56s \n Splash Damage Radius: 10 \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.56s \n Splash Damage Radius: 10 \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Velocidad de ataque cuerpo a cuerpo: 1.56 s \n Radio de daño de salpicadura: 10 \n Velocidad de movimiento: 55 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:KhamulFellbeast
-"Damage Type: Siege / Hero \n Dismounted Melee Attack Speed: 1.5s \n Mounted Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+//"Damage Type: Siege / Hero \n Dismounted Melee Attack Speed: 1.5s \n Mounted Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+"Tipo de daño: Asedio / Héroe \n Velocidad de ataque cuerpo a cuerpo desmontado: 1.5 s \n Radio de daño de salpicadura montado: 30 \n Velocidad de movimiento: 55 \n Velocidad de movimiento montado: 95 \n Rango de visión montado: 600 \n Rango de visión desmontado: 300 \n \n Gana armadura adicional en lugar de salud con cada nivel"
 END
 
 //not7.0.0
 TOOLTIP:MorgomirFellbeast
-"Damage Type: Siege / Hero \n Dismounted Melee Attack Speed: 1.5s \n Mounted Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+//"Damage Type: Siege / Hero \n Dismounted Melee Attack Speed: 1.5s \n Mounted Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+"Tipo de daño: Asedio / Héroe \n Velocidad de ataque cuerpo a cuerpo desmontado: 1.5 s \n Radio de daño de salpicadura montado: 30 \n Velocidad de movimiento: 55 \n Velocidad de movimiento montado: 95 \n Rango de visión montado: 600 \n Rango de visión desmontado: 300 \n \n Gana armadura adicional en lugar de salud con cada nivel"
 END
 
 //not7.0.0
 TOOLTIP:MordorWitchKing
-"Damage Type: Siege / Hero \n Sword Attack Speed: 1.2s \n Mace Attack Speed: 3s \n Mounted Splash Damage Radius: 30 \n Mace Splash Damage Radius: 30 \n Movement Speed: 65 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+//"Damage Type: Siege / Hero \n Sword Attack Speed: 1.2s \n Mace Attack Speed: 3s \n Mounted Splash Damage Radius: 30 \n Mace Splash Damage Radius: 30 \n Movement Speed: 65 \n Mounted Movement Speed: 95 \n Mounted Vision Range: 600 \n Dismounted Vision Range: 300 \n \n Gains additional armor instead of health with each level"
+"Tipo de daño: Asedio / Héroe \n Velocidad de ataque con espada: 1.2 s \n Velocidad de ataque con maza: 3 s \n Radio de daño de salpicadura montado: 30 \n Radio de daño de salpicadura con maza: 30 \n Velocidad de movimiento: 65 \n Velocidad de movimiento montado: 95 \n Rango de visión montado: 600 \n Rango de visión desmontado: 300 \n \n Gana armadura adicional en lugar de salud con cada nivel"
 END
 
 //not7.0.0
 TOOLTIP:Sauron
-"Damage Type: Magic / Siege \n Melee Attack Speed: 2.83s \n Splash Damage Radius: 80 \n Movement Speed: 40 \n Vision Range: 300"
+//"Damage Type: Magic / Siege \n Melee Attack Speed: 2.83s \n Splash Damage Radius: 80 \n Movement Speed: 40 \n Vision Range: 300"
+"Tipo de daño: Mágico / Asedio \n Velocidad de ataque cuerpo a cuerpo: 2.83 s \n Radio de daño de salpicadura: 80 \n Velocidad de movimiento: 40 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:OrcWarriors
-"Damage Type: Slash \n Health: 75 \n Melee Damage: 20 \n Upgraded Melee Damage: 40 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 75 \n Melee Damage: 20 \n Upgraded Melee Damage: 40 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 75 \n Daño cuerpo a cuerpo: 20 \n Daño cuerpo a cuerpo mejorado: 40 (corte) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 50 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:BlackOrcs
-"Damage Type: Slash \n Health: 225 \n Melee Damage: 70 (Slash) \n Upgraded Melee Damage: 140 (Slash) \n Melee Attack Speed: 1.63s \n Movement Speed: 50 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 225 \n Melee Damage: 70 (Slash) \n Upgraded Melee Damage: 140 (Slash) \n Melee Attack Speed: 1.63s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 225 \n Daño cuerpo a cuerpo: 70 (corte) \n Daño cuerpo a cuerpo mejorado: 140 (corte) \n Velocidad de ataque cuerpo a cuerpo: 1.63 s \n Velocidad de movimiento: 50 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:Easterlings
-"Damage Type: Specialist \n Health: 250 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 400"
+//"Damage Type: Specialist \n Health: 250 \n Melee Damage: 60 (Specialist) \n Upgraded Melee Damage: 120 (Specialist) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de daño: Especialista \n Salud: 250 \n Daño cuerpo a cuerpo: 60 (especialista) \n Daño cuerpo a cuerpo mejorado: 120 (especialista) \n Velocidad de ataque cuerpo a cuerpo: 1.6 s \n Velocidad de movimiento: 50 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:HaradrimArchers
-"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 85 (Pierce) \n Upgraded Ranged Damage: 100 (Pierce) & 30 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 350 \n Vision Range: 500"
+//"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 85 (Pierce) \n Upgraded Ranged Damage: 100 (Pierce) & 30 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de daño: Perforante \n Salud: 250 \n Daño a distancia: 85 (perforante) \n Daño a distancia mejorado: 100 (perforante) y 30 (llama) \n Velocidad de ataque a distancia: 1.5-2 s \n Velocidad de movimiento: 50 \n Alcance de arco: 350 \n Rango de visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:BlackRiders
-"Damage Type: Hero \n Health: 1200 \n Melee Damage: 150 (Hero) \n Crush Damage: 150 (Crush) \n Melee Attack Speed: 1.5s \n Movement Speed: 110 \n Vision Range: 300"
+//"Damage Type: Hero \n Health: 1200 \n Melee Damage: 150 (Hero) \n Crush Damage: 150 (Crush) \n Melee Attack Speed: 1.5s \n Movement Speed: 110 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Salud: 1200 \n Daño cuerpo a cuerpo: 150 (héroe) \n Daño por aplastamiento: 150 (aplastamiento) \n Velocidad de ataque cuerpo a cuerpo: 1.5 s \n Velocidad de movimiento: 110 \n Rango de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:DrummerTroll
-"Damage Type: Crush \n Crush Damage: 30 (Crush) \n Melee Splash Damage Radius: 50 \n Melee Attack Speed: 3s \n Movement Speed: 50 \n Vision Range: 400"
+//"Damage Type: Crush \n Crush Damage: 30 (Crush) \n Melee Splash Damage Radius: 50 \n Melee Attack Speed: 3s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de daño: Aplastamiento \n Daño por aplastamiento: 30 (aplastamiento) \n Radio de daño de salpicadura cuerpo a cuerpo: 50 \n Velocidad de ataque cuerpo a cuerpo: 3 s \n Velocidad de movimiento: 50 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:AttackTroll
-"Damage Type: Siege \n Crush Damage: 40 (Crush) \n Melee Splash Damage Radius: 60 \n Melee Attack Speed: 2s \n Movement Speed: 65 \n Vision Range: 400"
+//"Damage Type: Siege \n Crush Damage: 40 (Crush) \n Melee Splash Damage Radius: 60 \n Melee Attack Speed: 2s \n Movement Speed: 65 \n Vision Range: 400"
+"Tipo de daño: Asedio \n Daño por aplastamiento: 40 (aplastamiento) \n Radio de daño de salpicadura cuerpo a cuerpo: 60 \n Velocidad de ataque cuerpo a cuerpo: 2 s \n Velocidad de movimiento: 65 \n Rango de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:Mumakil
-"Damage Type: Siege \n Crush Damage: 400 (Crush) \n Melee Splash Damage Radius: 140 \n Melee Attack Speed: 3s \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 40 \n Vision Range: 600"
+//"Damage Type: Siege \n Crush Damage: 400 (Crush) \n Melee Splash Damage Radius: 140 \n Melee Attack Speed: 3s \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 40 \n Vision Range: 600"
+"Tipo de daño: Asedio \n Daño por aplastamiento: 400 (aplastamiento) \n Radio de daño de salpicadura cuerpo a cuerpo: 140 \n Velocidad de ataque cuerpo a cuerpo: 3 s \n Velocidad de ataque a distancia: 1.5-2 s \n Velocidad de movimiento: 40 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:MordorCatapult
-"Damage Type: Siege / Flame \n Upgraded Ranged Damage: 600 (Siege) & 400 (Flame) \n Ranged Attack Speed: 8.3s \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+//"Damage Type: Siege / Flame \n Upgraded Ranged Damage: 600 (Siege) & 400 (Flame) \n Ranged Attack Speed: 8.3s \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+"Tipo de daño: Asedio / Fuego \n Daño a distancia mejorado: 600 (Asedio) y 400 (Fuego) \n Velocidad de ataque a distancia: 8.3 s \n Velocidad de movimiento: 40 \n Rango de asedio: 500 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:MordorCatapultExpansion
-"Damage Type: Siege / Flame \n Upgraded Ranged Damage: 600 (Siege) & 400 (Flame) \n Ranged Attack Speed: 8.3s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+//"Damage Type: Siege / Flame \n Upgraded Ranged Damage: 600 (Siege) & 400 (Flame) \n Ranged Attack Speed: 8.3s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+"Tipo de daño: Asedio / Fuego \n Daño a distancia mejorado: 600 (Asedio) y 400 (Fuego) \n Velocidad de ataque a distancia: 8.3 s \n Radio de daño de salpicadura: 50 \n Velocidad de movimiento: 0 \n Rango de asedio: 525 \n Rango de visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:MordorBatteringRam
-"Damage Type: Siege \n Melee Attack Speed: 4.3s \n Movement Speed: 45 \n Vision Range: 250"
+//"Damage Type: Siege \n Melee Attack Speed: 4.3s \n Movement Speed: 45 \n Vision Range: 250"
+"Tipo de daño: Asedio \n Velocidad de ataque cuerpo a cuerpo: 4.3 s \n Velocidad de movimiento: 45 \n Rango de visión: 250"
 END
 
 //not7.0.0
 TOOLTIP:HaradrimSpearmen
-"Damage Type: Specialist \n Health: 250 \n Ranged Damage: 40 (Specialist) \n Melee Damage: 40 (Specialist) \n Upgraded Ranged Damage: 80 (Specialist) \n Upgraded Melee Damage: 80 (Specialist) \n Ranged Attack Speed: 2.6s \n Melee Attack Speed: 2.6s \n Movement Speed: 50 \n Spear Throw Range: 320 \n Vision Range: 350"
+//"Damage Type: Specialist \n Health: 250 \n Ranged Damage: 40 (Specialist) \n Melee Damage: 40 (Specialist) \n Upgraded Ranged Damage: 80 (Specialist) \n Upgraded Melee Damage: 80 (Specialist) \n Ranged Attack Speed: 2.6s \n Melee Attack Speed: 2.6s \n Movement Speed: 50 \n Spear Throw Range: 320 \n Vision Range: 350"
+"Tipo de daño: Especialista \n Salud: 250 \n Daño a distancia: 40 (Especialista) \n Daño cuerpo a cuerpo: 40 (Especialista) \n Daño a distancia mejorado: 80 (Especialista) \n Daño cuerpo a cuerpo mejorado: 80 (Especialista) \n Velocidad de ataque a distancia: 2.6 s \n Velocidad de ataque cuerpo a cuerpo: 2.6 s \n Velocidad de movimiento: 50 \n Rango de lanzamiento de lanza: 320 \n Rango de visión: 350"
 END
 
 //not7.0.0
 TOOLTIP:Laborer
-"Damage Type: Chop \n Melee Attack Speed: 1.26s \n Movement Speed: 32 \n Vision Range: 25"
+//"Damage Type: Chop \n Melee Attack Speed: 1.26s \n Movement Speed: 32 \n Vision Range: 25"
+"Tipo de daño: Corte \n Velocidad de ataque cuerpo a cuerpo: 1.26 s \n Velocidad de movimiento: 32 \n Rango de visión: 25"
 END
 
 /// Goblins ///
 
 //not7.0.0
 TOOLTIP:Azog
-"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Velocidad de Movimiento: 55 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:GoblinKing
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Mounted Movement Speed: 100 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Mounted Movement Speed: 100 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Daño por Embestida: 160 (Embestida) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Velocidad de Movimiento: 55 \n Velocidad Montado: 100 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Shelob
-"Damage Type: Hero \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 1.66s \n Splash Damage Radius: 20 \n Movement Speed: 100 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 1.66s \n Splash Damage Radius: 20 \n Movement Speed: 100 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Daño por Embestida: 200 (Embestida) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.66 s \n Radio de Daño en Área: 20 \n Velocidad de Movimiento: 100 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Drogoth
-"Damage Type: Siege \n Splash Damage Radius: 40 \n Movement Speed: 95 \n Vision Range: 600"
+//"Damage Type: Siege \n Splash Damage Radius: 40 \n Movement Speed: 95 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Radio de Daño en Área: 40 \n Velocidad de Movimiento: 95 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:Spiderlings
-"Damage Type: Cavalry \n Health: 275 \n Melee Damage: 60 (Cavalry) \n Upgraded Melee Damage: 70 (Cavalry) & 6/s (Poison) \n Melee Attack Speed: 2.56s \n Movement Speed: 100 \n Vision Range: 300"
+//"Damage Type: Cavalry \n Health: 275 \n Melee Damage: 60 (Cavalry) \n Upgraded Melee Damage: 70 (Cavalry) & 6/s (Poison) \n Melee Attack Speed: 2.56s \n Movement Speed: 100 \n Vision Range: 300"
+"Tipo de Daño: Caballería \n Salud: 275 \n Daño Cuerpo a Cuerpo: 60 (Caballería) \n Daño Cuerpo a Cuerpo Mejorado: 70 (Caballería) y 6/s (Veneno) \n Velocidad de Ataque Cuerpo a Cuerpo: 2.56 s \n Velocidad de Movimiento: 100 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:SpiderlingsExpansion
-"Damage Type: Cavalry \n Melee Attack Speed: 2.56s \n Movement Speed: 115 \n Vision Range: 175"
+//"Damage Type: Cavalry \n Melee Attack Speed: 2.56s \n Movement Speed: 115 \n Vision Range: 175"
+"Tipo de Daño: Caballería \n Velocidad de Ataque Cuerpo a Cuerpo: 2.56 s \n Velocidad de Movimiento: 115 \n Alcance de Visión: 175"
 END
 
 //not7.0.0
 TOOLTIP:SpiderRiders
-"Damage Type: Cavalry / Pierce \n Health: 700 \n Melee Damage: 120 (Cavalry) \n Crush Damage: 160 (Crush) \n Upgraded Melee Damage: 210 (Cavalry) \n Ranged Damage: 45 (Pierce) \n Upgraded Ranged Damage: 45 (Pierce) & 30 (Flame) \n Melee Attack Speed: 2.2s \n Ranged Attack Speed: 1.25-2s \n Movement Speed: 90 \n Bow Range: 400 \n Vision Range: 500"
+//"Damage Type: Cavalry / Pierce \n Health: 700 \n Melee Damage: 120 (Cavalry) \n Crush Damage: 160 (Crush) \n Upgraded Melee Damage: 210 (Cavalry) \n Ranged Damage: 45 (Pierce) \n Upgraded Ranged Damage: 45 (Pierce) & 30 (Flame) \n Melee Attack Speed: 2.2s \n Ranged Attack Speed: 1.25-2s \n Movement Speed: 90 \n Bow Range: 400 \n Vision Range: 500"
+"Tipo de Daño: Caballería / Perforante \n Salud: 700 \n Daño Cuerpo a Cuerpo: 120 (Caballería) \n Daño por Embestida: 160 (Embestida) \n Daño Cuerpo a Cuerpo Mejorado: 210 (Caballería) \n Daño a Distancia: 45 (Perforante) \n Daño a Distancia Mejorado: 45 (Perforante) y 30 (Llama) \n Velocidad de Ataque Cuerpo a Cuerpo: 2.2 s \n Velocidad de Ataque a Distancia: 1.25-2 s \n Velocidad de Movimiento: 90 \n Alcance de Flecha: 400 \n Alcance de Visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:HTMarauders
-"Damage Type: Specialist \n Health: 600 \n Melee Damage: 100 (Specialist) \n Upgraded Melee Damage: 200 (Specialist) \n Cavalry Splash Damage Radius: 10 \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 300"
+//"Damage Type: Specialist \n Health: 600 \n Melee Damage: 100 (Specialist) \n Upgraded Melee Damage: 200 (Specialist) \n Cavalry Splash Damage Radius: 10 \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 300"
+"Tipo de Daño: Especialista \n Salud: 600 \n Daño Cuerpo a Cuerpo: 100 (Especialista) \n Daño Cuerpo a Cuerpo Mejorado: 200 (Especialista) \n Radio de Daño en Área de Caballería: 10 \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 50 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:HTSwordsmen
-"Damage Type: Slash \n Health: 650 \n Melee Damage: 100 (Slash) \n Upgraded Melee Damage: 175 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 300"
+//"Damage Type: Slash \n Health: 650 \n Melee Damage: 100 (Slash) \n Upgraded Melee Damage: 175 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 300"
+"Tipo de Daño: Cortante \n Salud: 650 \n Daño Cuerpo a Cuerpo: 100 (Cortante) \n Daño Cuerpo a Cuerpo Mejorado: 175 (Cortante) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 50 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:MountainGiant
-"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Ranged Attack Speed: 7.2s \n Melee Attack Speed: 1.6s \n Melee Structure Attack Speed: 5s \n Movement Speed: 50 \n Rock Throw Range: 500 \n Vision Range: 600"
+//"Damage Type: Siege \n Crush Damage: 1000 (Crush) \n Ranged Splash Damage Radius: 50 \n Melee Splash Damage Radius: 50 \n Ranged Attack Speed: 7.2s \n Melee Attack Speed: 1.6s \n Melee Structure Attack Speed: 5s \n Movement Speed: 50 \n Rock Throw Range: 500 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Daño por Embestida: 1000 (Embestida) \n Radio de Daño en Área a Distancia: 50 \n Radio de Daño en Área Cuerpo a Cuerpo: 50 \n Velocidad de Ataque a Distancia: 7.2 s \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Velocidad de Ataque a Estructuras Cuerpo a Cuerpo: 5 s \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Roca: 500 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:MountainGiantExpansion
-"Damage Type: Siege \n Ranged Splash Damage Radius: 50 \n Ranged Attack Speed: 7.3s \n Movement Speed: 0 \n Rock Throw Range: 600 \n Vision Range: 600"
+//"Damage Type: Siege \n Ranged Splash Damage Radius: 50 \n Ranged Attack Speed: 7.3s \n Movement Speed: 0 \n Rock Throw Range: 600 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Radio de Daño en Área a Distancia: 50 \n Velocidad de Ataque a Distancia: 7.3 s \n Velocidad de Movimiento: 0 \n Alcance de Lanzamiento de Roca: 600 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:FireDrakeBroods
-"Damage Type: Flame \n Health: 1500 \n Ranged Damage: 175 (Flame) \n Ranged Attack Speed: 3s \n Splash Damage Radius: 30 \n Movement Speed: 85 \n Fire Breath Range: 150 \n Vision Range: 300"
+//"Damage Type: Flame \n Health: 1500 \n Ranged Damage: 175 (Flame) \n Ranged Attack Speed: 3s \n Splash Damage Radius: 30 \n Movement Speed: 85 \n Fire Breath Range: 150 \n Vision Range: 300"
+"Tipo de Daño: Llama \n Salud: 1500 \n Daño a Distancia: 175 (Llama) \n Velocidad de Ataque a Distancia: 3 s \n Radio de Daño en Área: 30 \n Velocidad de Movimiento: 85 \n Alcance de Aliento de Fuego: 150 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:FortressFireDrake
 // "Damage Type: Flame \n Crush Damage: 200 (Crush) \n Health: 3500 \n Ranged Attack Speed: 3s \n Splash Damage Radius: 30 \n Movement Speed: 90 \n Fire Breath Range: 100 \n Vision Range: 300"
-"Damage Type: Flame \n Health: 3500 \n Ranged Attack Speed: 3s \n Splash Damage Radius: 30 \n Movement Speed: 90 \n Fire Breath Range: 100 \n Vision Range: 300"
+//"Damage Type: Flame \n Health: 3500 \n Ranged Attack Speed: 3s \n Splash Damage Radius: 30 \n Movement Speed: 90 \n Fire Breath Range: 100 \n Vision Range: 300"
+"Tipo de Daño: Llama \n Salud: 3500 \n Velocidad de Ataque a Distancia: 3 s \n Radio de Daño en Área: 30 \n Velocidad de Movimiento: 90 \n Alcance de Aliento de Fuego: 100 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:SpiderAllies
-"Damage Type: Cavalry \n Health: 1000 \n Melee Damage: 250 (Flame) \n Melee Attack Speed: 2.56s \n Movement Speed: 105 \n Vision Range: 300"
+//"Damage Type: Cavalry \n Health: 1000 \n Melee Damage: 250 (Flame) \n Melee Attack Speed: 2.56s \n Movement Speed: 105 \n Vision Range: 300"
+"Tipo de Daño: Caballería \n Salud: 1000 \n Daño Cuerpo a Cuerpo: 250 (Llama) \n Velocidad de Ataque Cuerpo a Cuerpo: 2.56 s \n Velocidad de Movimiento: 105 \n Alcance de Visión: 300"
 END
 
 /// Angmar ///
 
 //not7.0.0
 TOOLTIP:Hwaldar
-"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.6s \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Velocidad de Movimiento: 55 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Morgomir
-"Damage Type: Hero \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 55 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Karsh
-"Damage Type: Hero / Magic \n Melee Attack Speed: 2.5s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.3x \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Hero / Magic \n Melee Attack Speed: 2.5s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.3x \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de Daño: Héroe / Mágico \n Velocidad de Ataque Cuerpo a Cuerpo: 2.5 s \n Radio de Daño en Área: 10 \n Multiplicador de Absorción de Vida: 0.3x \n Velocidad de Movimiento: 55 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Rogash
-"Damage Type: Hero \n Crush Damage: 40 (Crush) \n Melee Attack Speed: 2s \n Splash Damage Radius: 30 \n Movement Speed: 60 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 40 (Crush) \n Melee Attack Speed: 2s \n Splash Damage Radius: 30 \n Movement Speed: 60 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Daño por Embestida: 40 (Embestida) \n Velocidad de Ataque Cuerpo a Cuerpo: 2 s \n Radio de Daño en Área: 30 \n Velocidad de Movimiento: 60 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:AngmarWitchKing
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 2.75s \n Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 90 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 2.75s \n Splash Damage Radius: 30 \n Movement Speed: 55 \n Mounted Movement Speed: 90 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Daño por Embestida: 160 (Embestida) \n Velocidad de Ataque Cuerpo a Cuerpo: 2.75 s \n Radio de Daño en Área: 30 \n Velocidad de Movimiento: 55 \n Velocidad Montado: 90 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:GundabadOrcs
-"Damage Type: Slash \n Health: 90 \n Melee Damage: 35 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 60 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 90 \n Melee Damage: 35 (Slash) \n Melee Attack Speed: 1.5s \n Movement Speed: 60 \n Vision Range: 400"
+"Tipo de Daño: Cortante \n Salud: 90 \n Daño Cuerpo a Cuerpo: 35 (Cortante) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 60 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:RhudaurSpearmen
-"Damage Type: Specialist \n Health: 150 \n Melee Damage: 40 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 400"
+//"Damage Type: Specialist \n Health: 150 \n Melee Damage: 40 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 400"
+"Tipo de Daño: Especialista \n Salud: 150 \n Daño Cuerpo a Cuerpo: 40 (Especialista) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 55 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:RhudaurAxeThrowers
-"Damage Type: Slash \n Health: 150 \n Ranged Damage: 45 (Slash) \n Ranged Attack Speed: 2.33s \n Movement Speed: 55 \n Axe Throw Range: 275 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 150 \n Ranged Damage: 45 (Slash) \n Ranged Attack Speed: 2.33s \n Movement Speed: 55 \n Axe Throw Range: 275 \n Vision Range: 400"
+"Tipo de Daño: Cortante \n Salud: 150 \n Daño a Distancia: 45 (Cortante) \n Velocidad de Ataque a Distancia: 2.33 s \n Velocidad de Movimiento: 55 \n Alcance de Lanzamiento de Hacha: 275 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:BlackNumenorians
-"Damage Type: Slash \n Health: 520 \n Melee Damage: 90 (Slash) \n Upgraded Melee Damage: 180 (Slash) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 520 \n Melee Damage: 90 (Slash) \n Upgraded Melee Damage: 180 (Slash) \n Melee Attack Speed: 1.6s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de Daño: Cortante \n Salud: 520 \n Daño Cuerpo a Cuerpo: 90 (Cortante) \n Daño Cuerpo a Cuerpo Mejorado: 180 (Cortante) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Velocidad de Movimiento: 50 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:DarkRangers
-"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 80 (Pierce) \n Melee Damage: 85 (Slash) \n Upgraded Ranged Damage: 100 (Pierce) & 30 (Frost) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 400 \n Vision Range: 500"
+//"Damage Type: Pierce \n Health: 250 \n Ranged Damage: 80 (Pierce) \n Melee Damage: 85 (Slash) \n Upgraded Ranged Damage: 100 (Pierce) & 30 (Frost) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 400 \n Vision Range: 500"
+"Tipo de Daño: Perforante \n Salud: 250 \n Daño a Distancia: 80 (Perforante) \n Daño Cuerpo a Cuerpo: 85 (Cortante) \n Daño a Distancia Mejorado: 100 (Perforante) y 30 (Escarcha) \n Velocidad de Ataque a Distancia: 1.5-2 s \n Velocidad de Movimiento: 50 \n Alcance de Flecha: 400 \n Alcance de Visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:DireWolves
-"Damage Type: Slash \n Health: 275 \n Melee Damage: 65 (Slash) \n Melee Attack Speed: 1.8s \n Movement Speed: 100 \n Vision Range: 400"
+//"Damage Type: Slash \n Health: 275 \n Melee Damage: 65 (Slash) \n Melee Attack Speed: 1.8s \n Movement Speed: 100 \n Vision Range: 400"
+"Tipo de Daño: Cortante \n Salud: 275 \n Daño Cuerpo a Cuerpo: 65 (Cortante) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.8 s \n Velocidad de Movimiento: 100 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:DireWolvesExpansion
-"Damage Type: Slash \n Melee Attack Speed: 1.8s \n Movement Speed: 115 \n Vision Range: 175"
+//"Damage Type: Slash \n Melee Attack Speed: 1.8s \n Movement Speed: 115 \n Vision Range: 175"
+"Tipo de Daño: Cortante \n Velocidad de Ataque Cuerpo a Cuerpo: 1.8 s \n Velocidad de Movimiento: 115 \n Alcance de Visión: 175"
 END
 
 //not7.0.0
 TOOLTIP:SnowTrolls
-"Damage Type: Cavalry \n Health: 1000 \n Melee Damage: 100 (Cavalry) \n Crush Damage: 180 (Crush) \n Upgraded Melee Damage: 175 (Cavalry) \n Melee Attack Speed: 1.5s \n Movement Speed: 85 \n Vision Range: 300"
+//"Damage Type: Cavalry \n Health: 1000 \n Melee Damage: 100 (Cavalry) \n Crush Damage: 180 (Crush) \n Upgraded Melee Damage: 175 (Cavalry) \n Melee Attack Speed: 1.5s \n Movement Speed: 85 \n Vision Range: 300"
+"Tipo de Daño: Caballería \n Salud: 1000 \n Daño Cuerpo a Cuerpo: 100 (Caballería) \n Daño por Embestida: 180 (Embestida) \n Daño Cuerpo a Cuerpo Mejorado: 175 (Caballería) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 85 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:HillTrolls
-"Damage Type: Specialist \n Health: 900 \n Melee Damage: 125 (Specialist) \n Upgraded Melee Damage: 250 (Specialist) \n Cavalry Splash Damage Radius: 10 \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 300"
+//"Damage Type: Specialist \n Health: 900 \n Melee Damage: 125 (Specialist) \n Upgraded Melee Damage: 250 (Specialist) \n Cavalry Splash Damage Radius: 10 \n Melee Attack Speed: 1.5s \n Movement Speed: 55 \n Vision Range: 300"
+"Tipo de Daño: Especialista \n Salud: 900 \n Daño Cuerpo a Cuerpo: 125 (Especialista) \n Daño Cuerpo a Cuerpo Mejorado: 250 (Especialista) \n Radio de Daño en Área de Caballería: 10 \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Velocidad de Movimiento: 55 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Sorcerers
-"Health: 1000 \n Movement Speed: 50 \n Spell Casting Range: 400 \n Vision Range: 450"
+//"Health: 1000 \n Movement Speed: 50 \n Spell Casting Range: 400 \n Vision Range: 450"
+"Salud: 1000 \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Hechizos: 400 \n Alcance de Visión: 450"
 END
 
 //not7.0.0
 TOOLTIP:StoneThrower
-"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Frost) \n Ranged Attack Speed: 8.66s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+//"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Frost) \n Ranged Attack Speed: 8.66s \n Splash Damage Radius: 50 \n Movement Speed: 40 \n Siege Range: 500 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Daño a Distancia Mejorado: 900 (Asedio) y 600 (Escarcha) \n Velocidad de Ataque a Distancia: 8.66 s \n Radio de Daño en Área: 50 \n Velocidad de Movimiento: 40 \n Alcance de Asedio: 500 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:StoneThrowerExpansion
-"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Frost) \n Ranged Attack Speed: 8.66s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+//"Damage Type: Siege \n Upgraded Ranged Damage: 900 (Siege) & 600 (Frost) \n Ranged Attack Speed: 8.66s \n Splash Damage Radius: 50 \n Movement Speed: 0 \n Siege Range: 525 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Daño a Distancia Mejorado: 900 (Asedio) y 600 (Escarcha) \n Velocidad de Ataque a Distancia: 8.66 s \n Radio de Daño en Área: 50 \n Velocidad de Movimiento: 0 \n Alcance de Asedio: 525 \n Alcance de Visión: 600"
 END
 
 /// Misc ///
@@ -52878,112 +52959,134 @@ END
 
 //not7.0.0
 TOOLTIP:TomBombadil
-"Damage Type: Hero \n Crush Damage: 400 (Crush) \n Melee Attack Speed: 1.5s \n Splash Damage Radius: 50 \n Movement Speed: 60 \n Vision Range: 300"
+//"Damage Type: Hero \n Crush Damage: 400 (Crush) \n Melee Attack Speed: 1.5s \n Splash Damage Radius: 50 \n Movement Speed: 60 \n Vision Range: 300"
+"Tipo de Daño: Héroe \n Daño por Embestida: 400 \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5 s \n Radio de Daño en Área: 50 \n Velocidad de Movimiento: 60 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Balrog
-"Damage Type: Siege / Flame \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 2.8s \n Splash Damage Radius: 70 \n Melee Structure Attack Speed: 3.4s \n Movement Speed: 50 \n Vision Range: 800"
+//"Damage Type: Siege / Flame \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 2.8s \n Splash Damage Radius: 70 \n Melee Structure Attack Speed: 3.4s \n Movement Speed: 50 \n Vision Range: 800"
+"Tipo de Daño: Asedio / Llama \n Daño por Embestida: 200 \n Velocidad de Ataque Cuerpo a Cuerpo: 2.8 s \n Radio de Daño en Área: 70 \n Velocidad de Ataque a Estructuras Cuerpo a Cuerpo: 3.4 s \n Velocidad de Movimiento: 50 \n Alcance de Visión: 800"
 END
 
 //not7.0.0
 TOOLTIP:ShadeoftheWolf
-"Damage Type: Hero / Frost \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 2s \n Splash Damage Radius: 70 \n Movement Speed: 144 \n Vision Range: 800"
+//"Damage Type: Hero / Frost \n Crush Damage: 200 (Crush) \n Melee Attack Speed: 2s \n Splash Damage Radius: 70 \n Movement Speed: 144 \n Vision Range: 800"
+"Tipo de Daño: Héroe / Escarcha \n Daño por Embestida: 200 (Embestida) \n Velocidad de Ataque Cuerpo a Cuerpo: 2 s \n Radio de Daño en Área: 70 \n Velocidad de Movimiento: 144 \n Alcance de Visión: 800"
 END
 
 //not7.0.0
 TOOLTIP:SummonedDragon
-"Damage Type: Flame / Magic \n Crush Damage: 200 (Crush) \n Ranged Attack Speed: 5.74s \n Splash Damage Radius: 150 \n Movement Speed: 75 \n Fire Breath Range: 37.5 \n Vision Range: 400"
+//"Damage Type: Flame / Magic \n Crush Damage: 200 (Crush) \n Ranged Attack Speed: 5.74s \n Splash Damage Radius: 150 \n Movement Speed: 75 \n Fire Breath Range: 37.5 \n Vision Range: 400"
+"Tipo de Daño: Llama / Mágico \n Daño por Embestida: 200 (Embestida) \n Velocidad de Ataque a Distancia: 5.74 s \n Radio de Daño en Área: 150 \n Velocidad de Movimiento: 75 \n Alcance de Aliento de Fuego: 37.5 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:DragonStrikeDragon
-"Damage Type: Flame \n Splash Damage Radius: 100 \n Movement Speed: 200 \n Vision Range: 600"
+//"Damage Type: Flame \n Splash Damage Radius: 100 \n Movement Speed: 200 \n Vision Range: 600"
+"Tipo de Daño: Llama \n Radio de Daño en Área: 100 \n Velocidad de Movimiento: 200 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:Wyrm
-"Damage Type: Flame \n Ranged Attack Speed: 4.8s \n Splash Damage Radius: 80 \n Movement Speed: 0 \n Fire Breath Range: 88 \n Vision Range: 750"
+//"Damage Type: Flame \n Ranged Attack Speed: 4.8s \n Splash Damage Radius: 80 \n Movement Speed: 0 \n Fire Breath Range: 88 \n Vision Range: 750"
+"Tipo de Daño: Llama \n Velocidad de Ataque a Distancia: 4.8 s \n Radio de Daño en Área: 80 \n Velocidad de Movimiento: 0 \n Alcance de Aliento de Fuego: 88 \n Alcance de Visión: 750"
 END
 
 //not7.0.0
 TOOLTIP:Watcher
-"Damage Type: Siege \n Melee Attack Speed: 4-6s \n Splash Damage Radius: 175 \n Movement Speed: 0 \n Melee Attack Range: 160 \n Vision Range: 300"
+//"Damage Type: Siege \n Melee Attack Speed: 4-6s \n Splash Damage Radius: 175 \n Movement Speed: 0 \n Melee Attack Range: 160 \n Vision Range: 300"
+"Tipo de Daño: Asedio \n Velocidad de Ataque Cuerpo a Cuerpo: 4-6 s \n Radio de Daño en Área: 175 \n Velocidad de Movimiento: 0 \n Alcance de Ataque Cuerpo a Cuerpo: 160 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:GreaterWight
-"Damage Type: Magic \n Melee Attack Speed: 1.4s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.35x \n Movement Speed: 55 \n Vision Range: 200"
+//"Damage Type: Magic \n Melee Attack Speed: 1.4s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.35x \n Movement Speed: 55 \n Vision Range: 200"
+"Tipo de Daño: Mágico \n Velocidad de Ataque Cuerpo a Cuerpo: 1.4 s \n Radio de Daño en Área: 10 \n Multiplicador de Absorción de Vida: 0.35x \n Velocidad de Movimiento: 55 \n Alcance de Visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:LesserWight
-"Damage Type: Magic \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.15x \n Movement Speed: 55 \n Vision Range: 200"
+//"Damage Type: Magic \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.15x \n Movement Speed: 55 \n Vision Range: 200"
+"Tipo de Daño: Mágico \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Radio de Daño en Área: 10 \n Multiplicador de Absorción de Vida: 0.15x \n Velocidad de Movimiento: 55 \n Alcance de Visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:LesserWightSummoned
-"Damage Type: Magic \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.15x \n Movement Speed: 55 \n Vision Range: 200"
+//"Damage Type: Magic \n Melee Attack Speed: 1.6s \n Splash Damage Radius: 10 \n Life Drain Multiplier: 0.15x \n Movement Speed: 55 \n Vision Range: 200"
+"Tipo de Daño: Mágico \n Velocidad de Ataque Cuerpo a Cuerpo: 1.6 s \n Radio de Daño en Área: 10 \n Multiplicador de Absorción de Vida: 0.15x \n Velocidad de Movimiento: 55 \n Alcance de Visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:Frodo
-"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.4s \n Ranged Attack Speed: 2.86s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+//"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.4s \n Ranged Attack Speed: 2.86s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+"Tipo de Daño: Héroe / Héroe a Distancia \n Velocidad de Ataque Cuerpo a Cuerpo: 1.4 s \n Velocidad de Ataque a Distancia: 2.86 s \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Piedra: 200 \n Alcance de Visión: 160"
 END
 
 //not7.0.0
 TOOLTIP:Sam
-"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+//"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+"Tipo de Daño: Héroe / Héroe a Distancia \n Velocidad de Ataque Cuerpo a Cuerpo: 1.66 s \n Velocidad de Ataque a Distancia: 3.8 s \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Piedra: 200 \n Alcance de Visión: 160"
 END
 
 //not7.0.0
 TOOLTIP:Merry
-"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+//"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+"Tipo de Daño: Héroe / Héroe a Distancia \n Velocidad de Ataque Cuerpo a Cuerpo: 1.66 s \n Velocidad de Ataque a Distancia: 3.8 s \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Piedra: 200 \n Alcance de Visión: 160"
 END
 
 //not7.0.0
 TOOLTIP:Pippin
-"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+//"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.66s \n Ranged Attack Speed: 3.8s \n Movement Speed: 50 \n Rock Throw Range: 200 \n Vision Range: 160"
+"Tipo de Daño: Héroe / Héroe a Distancia \n Velocidad de Ataque Cuerpo a Cuerpo: 1.66 s \n Velocidad de Ataque a Distancia: 3.8 s \n Velocidad de Movimiento: 50 \n Alcance de Lanzamiento de Piedra: 200 \n Alcance de Visión: 160"
 END
 
 //not7.0.0
 TOOLTIP:TransportShipGood
-"Movement Speed: 100 \n Vision Range: 200"
+//"Movement Speed: 100 \n Vision Range: 200"
+"Velocidad de Movimiento: 100 \n Alcance de Visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:TransportShipEvil
-"Movement Speed: 100 \n Vision Range: 200"
+//"Movement Speed: 100 \n Vision Range: 200"
+"Velocidad de Movimiento: 100 \n Alcance de Visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:ArrowShipGood
-"Damage Type: Magic \n Ranged Attack Speed: 0.16s \n Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 600"
+//"Damage Type: Magic \n Ranged Attack Speed: 0.16s \n Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 600"
+"Tipo de Daño: Mágico \n Velocidad de Ataque a Distancia: 0.16 s \n Velocidad de Movimiento: 100 \n Alcance de Arco: 350 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:ArrowShipEvil
-"Damage Type: Flame \n Ranged Attack Speed: 0.16s \n Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 600"
+//"Damage Type: Flame \n Ranged Attack Speed: 0.16s \n Movement Speed: 100 \n Bow Range: 350 \n Vision Range: 600"
+"Tipo de Daño: Incendiario \n Velocidad de Ataque a Distancia: 0.16 s \n Velocidad de Movimiento: 100 \n Alcance de Arco: 350 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:BombardShipGood
-"Damage Type: Siege \n Ranged Attack Speed: 10s  \n Splash Damage Radius: 50 \n Movement Speed: 80 \n Siege Range: 435 \n Vision Range: 600"
+//"Damage Type: Siege \n Ranged Attack Speed: 10s  \n Splash Damage Radius: 50 \n Movement Speed: 80 \n Siege Range: 435 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Velocidad de Ataque a Distancia: 10 s \n Radio de Daño en Área: 50 \n Velocidad de Movimiento: 80 \n Alcance de Asedio: 435 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:BombardShipEvil
-"Damage Type: Siege \n Ranged Attack Speed: 10.26s \n Splash Damage Radius: 50 \n Movement Speed: 80 \n Siege Range: 435 \n Vision Range: 600"
+//"Damage Type: Siege \n Ranged Attack Speed: 10.26s \n Splash Damage Radius: 50 \n Movement Speed: 80 \n Siege Range: 435 \n Vision Range: 600"
+"Tipo de Daño: Asedio \n Velocidad de Ataque a Distancia: 10 s \n Radio de Daño en Área: 50 \n Velocidad de Movimiento: 80 \n Alcance de Asedio: 435 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:StormShip
-"Damage Type: Force \n Splash Damage Radius: 185 \n Movement Speed: 100 \n Vision Range: 600"
+//"Damage Type: Force \n Splash Damage Radius: 185 \n Movement Speed: 100 \n Vision Range: 600"
+"Tipo de Daño: Fuerza \n Radio de Daño en Área: 185 \n Velocidad de Movimiento: 100 \n Alcance de Visión: 600"
 END
 
 //not7.0.0
 TOOLTIP:DoomShip
-"Damage Type: Force \n Splash Damage Radius: 400 \n Movement Speed: 100 \n Vision Range: 600"
+//"Damage Type: Force \n Splash Damage Radius: 400 \n Movement Speed: 100 \n Vision Range: 600"
+"Tipo de Daño: Fuerza \n Radio de Daño en Área: 400 \n Velocidad de Movimiento: 100 \n Alcance de Visión: 600"
 END
 
 /// Spell Book Tooltips
@@ -54085,26 +54188,14 @@ CONTROLBAR:TooltipSpecialAbilityHumanHeads
 "Usa calaveras como munición para causar miedo a las unidades enemigas"
 END
 
-
 // Misc
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation
-//"The units form a circle with pikes extended"
-//"The units form a circle with pikes extended\n+20% armor"
-//"The units form a circle with pikes extended\n+25% armor"
-//"The units form a circle with pikes extended\n+233% Armor"
-//"The units form a circle with pikes extended\n+150% Armor"
-//"The units form a circle with pikes extended\n+50% Armor"
-//"The units form a circle with pikes extended\n+100% Armor"
-//"The units form a circle with pikes extended\n+75% Armor"
-"Las unidades forman un círculo con las picas extendidas\nLas unidades consiguen +100% de armadura"
+"Las unidades forman un círculo con las picas extendidas\nLas unidades consiguen +75% de armadura"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIgnite
-//"The Balrog gains +200% Damage and +50% Armor \n Left click to activate"
-//"The Balrog gains +100% Damage and +100% Armor \n Left click to activate"
-//"The Balrog gains\n+50% Damage, +50% Armor \n Left click to activate"
-"El Balrog recibe +50% al daño y +50% a la armadura\nPara activarlo, haz clic con el botón izquierdo"
+"El Balrog gana +50% de Daño y +50% de Armadura \n Daño: 100 (Mágico) \n Radio: 50 \n Duración: 30s \n Tiempo de Recarga: 30s \n Clic izquierdo para activar"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBalrogBreath
@@ -54113,30 +54204,23 @@ CONTROLBAR:ToolTipSpecialAbilityBalrogBreath
 END
 
 CONTROLBAR:ToolTipShadeChomp
-//"Kill target enemy infantry which restores health and temporarily grants +50% Damage and +50% Armor\nLeft click icon then left click on target enemy\nDoes not stack"
-//"Kill target enemy infantry which restores health and temporarily grants\n+50% Damage, +100% Armor\nLeft click icon then left click on target enemy"
-"Mata a la unidad de infantería enemiga apuntada, recupera salud y proporciona temporalmente +50% al daño y +100% a la armadura\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo"
+"Mata a la infantería enemiga objetivo, lo que restaura salud y otorga temporalmente +50% de Daño y +100% de Armadura \n Cantidad de Curación: 100% de Salud \n Duración: 20s \n Alcance de Objetivo: 12 \n Tiempo de Recarga: 45s \n Haz clic izquierdo en el ícono y luego clic izquierdo en la infantería enemiga objetivo"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDarkLordsLament
-//"Stuns surrounding enemy units\nLeft click icon to activate"
-"Aturde a las unidades enemigas de alrededor\nHaz clic con el botón izquierdo para activar"
+"Congela temporalmente las unidades enemigas cercanas \n Radio: 150 \n Duración: 10s \n Tiempo de Recarga: 2m \n Clic izquierdo en el ícono para activar"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityCallPack
-//"Calls a pack of wolves to crush the enemy\nLeft click icon then left click on target area"
-"Invoca a una jauría de lobos para que ataque al enemigo\nHaz clic con el botón izquierdo sobre el icono y, a continuación, sobre el objetivo"
+"Llama a una manada de lobos para aplastar al enemigo \n Daño: 4000/s (Héroe) \n Radio de Objetivo: 100 \n Alcance de Objetivo: 150 \n Tiempo de Recarga: 40s \n Haz clic izquierdo en el ícono y luego clic izquierdo en el área objetivo"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityWyrmReposition
-//"Move the Wyrm to a different location on the battlefield"
-"Mueve la sierpe a otro sitio del campo de batalla"
+"Mueve al Wyrm a una ubicación diferente en el campo de batalla \n Daña a enemigos cerca de la ubicación objetivo \n Daño: 100 (Aplastamiento) \n Radio de Daño por Salpicadura: 50 \n Alcance de Objetivo: 750 \n Tiempo de Recarga: 2s \n Haz clic izquierdo en el ícono y luego clic izquierdo en el área objetivo"
 END
 
 CONTROLBAR:ToolTipSpecialAbilitySummonedDragonReposition
-//"Move the dragon to a different location on the battlefield"
-//"Move the dragon to a different location on the battlefield \n Blows back surrounding units"
-"Desplaza al dragón a una localización diferente en el campo de batalla\nHace volar a las unidades de alrededor"
+"Mueve al dragón a una ubicación diferente en el campo de batalla \n Derriba a las unidades cercanas \n Daño: 200 (Aplastamiento) \n Radio de Daño por Salpicadura: 100 \n Alcance de Objetivo: Todo el mapa \n Tiempo de Recarga: 15s \n Haz clic izquierdo en el ícono y luego clic izquierdo en el área objetivo"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -54333,18 +54417,21 @@ END
 //not7.0.0
 CONTROLBAR:TooltipDDDeathMask
 //"Upgrades this horde with Death Masks \n Modifier Type: Passive Debuff \n When equipped, nearby enemy units suffer -25% Damage and -25% Armor \n Does not stack with other Debuffs"
-"Upgrades this horde with Death Masks \n Modifier Type: Passive Debuff \n When equipped, enemy units briefly suffer -20% Damage and -20% Armor prior to taking damage \n Does not stack with other Debuffs"
+//"Upgrades this horde with Death Masks \n Modifier Type: Passive Debuff \n When equipped, enemy units briefly suffer -20% Damage and -20% Armor prior to taking damage \n Does not stack with other Debuffs"
+"Mejora esta horda con Máscaras de la Muerte \n Tipo de Modificador: Penalización Pasiva \n Cuando está equipado, las unidades enemigas sufren brevemente -20% de Daño y -20% de Armadura antes de recibir daño \n No se acumula con otras Penalizaciones"
 END
 
 //not7.0.0
 TOOLTIP:LackAngmarDeathMasks
 //"Research upgrade at Hall of the Kings Men to enable this equipment \n Modifier Type: Passive Debuff \n When equipped, nearby enemy units suffer -25% Damage and -25% Armor \n Does not stack with other Debuffs"
-"Research upgrade at Hall of the Kings Men to enable this equipment \n Modifier Type: Passive Debuff \n When equipped, enemy units briefly suffer -20% Damage and -20% Armor prior to taking damage from Black Numenoreans \n Enemy units nearby Dark Rangers suffer -25% Damage and -25% Armor \n Does not stack with other Debuffs \n Radius: 75"
+//"Research upgrade at Hall of the Kings Men to enable this equipment \n Modifier Type: Passive Debuff \n When equipped, enemy units briefly suffer -20% Damage and -20% Armor prior to taking damage from Black Numenoreans \n Enemy units nearby Dark Rangers suffer -25% Damage and -25% Armor \n Does not stack with other Debuffs \n Radius: 75"
+"Mejora de investigación en la Sala de los Hombres del Rey para habilitar este equipo \n Tipo de Modificador: Penalización Pasiva \n Cuando está equipado, las unidades enemigas sufren brevemente -20% de Daño y -20% de Armadura antes de recibir daño de los Númenóreanos Negros \n Las unidades enemigas cercanas a los Guardabosques Oscuros sufren -25% de Daño y -25% de Armadura \n No se acumula con otras Penalizaciones \n Radio: 75"
 END
 
 //not7.0.0
 CONTROLBAR:TooltipDarkRangerDeathMask
-"Upgrades this horde with Death Masks \n Modifier Type: Passive Debuff \n When equipped, nearby enemy units suffer -20% Damage and -20% Armor \n Does not stack with other Debuffs \n Radius: 75"
+//"Upgrades this horde with Death Masks \n Modifier Type: Passive Debuff \n When equipped, nearby enemy units suffer -20% Damage and -20% Armor \n Does not stack with other Debuffs \n Radius: 75"
+"Mejora esta horda con Máscaras de la Muerte \n Tipo de Modificador: Penalización Pasiva \n Cuando está equipado, las unidades enemigas cercanas sufren -20% de Daño y -20% de Armadura \n No se acumula con otras Penalizaciones \n Radio: 75"
 END
 
 CONTROLBAR:TooltipNecromancerDeathMask
@@ -54755,15 +54842,13 @@ OBJECT:MenFortressDescription
 END
 
 OBJECT:HearthWellDescription
-//"Nearby allies will heal if not under attack"
-//"Heals nearby allies"
-//"Heals nearby allies \n Detects stealth"
-"Cura a los aliados cercanos\nDetecta el sigilo"
+"Cantidad de Curación: 6% /3s \n Radio: 200 \n Alcance de Visión: 200 \n Retraso de Reparación: 1m \n Cantidad de Reparación: 0.4%/s"
 END
 
 //not7.0.0
 OBJECT:MenLoneTowerDescription
-"Damage Type: Structural \n Upgraded Ranged Damage: 120 (Structural) & 20 (Flame) \n Bow Range: 280 \n Vision Range: 650 \n Repair Delay: 1m \n Repair Amount: 0.4%/s"
+//"Damage Type: Structural \n Upgraded Ranged Damage: 120 (Structural) & 20 (Flame) \n Bow Range: 280 \n Vision Range: 650 \n Repair Delay: 1m \n Repair Amount: 0.4%/s"
+"Tipo de Daño: Estructural \n Daño a Distancia Mejorado: 120 (Estructural) y 20 (Llama) \n Alcance de Arco: 280 \n Alcance de Visión: 650 \n Retraso de Reparación: 1m \n Cantidad de Reparación: 0.4%/s"
 END
 
 OBJECT:HeroicStatueDescription
@@ -54805,7 +54890,8 @@ END
 
 //not7.0.0
 OBJECT:MenArrowTowerExpansionDescription
-"Damage Type: Structural \n Upgraded Ranged Damage: 120 (Structural) & 20 (Flame) \n Bow Range: 250 \n Repair Delay: 1m \n Repair Amount: 0.4%/s"
+//"Damage Type: Structural \n Upgraded Ranged Damage: 120 (Structural) & 20 (Flame) \n Bow Range: 250 \n Repair Delay: 1m \n Repair Amount: 0.4%/s"
+"Tipo de Daño: Estructural \n Daño a Distancia Mejorado: 120 (Estructural) y 20 (Llama) \n Alcance de Arco: 250 \n Retraso de Reparación: 1m \n Cantidad de Reparación: 0.4%/s"
 END
 
 CONTROLBAR:ToolTipConstructMenDormitory
@@ -61504,6 +61590,7 @@ CONTROLBAR:ToolTipBuildGrandHarvestUpgradePurchased
 "Incrementa temporalmente la producción de recursos de las granjas en un 15% \n Duración: 2 minutos \n Tiempo de recarga: 3 minutos \n Haz clic izquierdo para activar"
 END
 
+//fix CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
 //"+10% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
 //"+15% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
@@ -61526,14 +61613,10 @@ CONTROLBAR:ActivateGrandHarvest
 "&Gran Cosecha"
 END
 
+//fix CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
 //not7.0.0
 CONTROLBAR:ToolTipActivateGrandHarvest
-//"+10% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
-//"+15% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
-//"Increases resource output from Farms by 15%"
-//"Increases resource output from Farms by 12%"
-//"Increases Farm resource output from Farms by 12% \n \n Research Time: 45s"
-"Temporarily increases resource output from Farms by 15% \n Duration: 2m \n Recharge Time: 3m \n Left click to activate"
+"Aumenta temporalmente la producción de recursos de las Granjas en un 15% \n Duración: 2m \n Tiempo de Recarga: 3m \n Clic izquierdo para activar"
 END
 
 CONTROLBAR:ToolTipConstructMenFortress
@@ -61585,7 +61668,7 @@ END
 
 //not7.0.0
 TOOLTIP:LorienArchers
-"Damage Type: Pierce \n Health: 180 \n Ranged Damage: 36 (Pierce) \n Upgraded Ranged Damage: 46 (Pierce) & 15 (Magic) \n Ranged Attack Speed: 1.6s \n Movement Speed: 55 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de Daño: Perforante \n Salud: 180 \n Daño a Distancia: 36 (Perforante) \n Daño a Distancia Mejorado: 46 (Perforante) y 15 (Mágico) \n Velocidad de Ataque a Distancia: 1.6s \n Velocidad de Movimiento: 55 \n Alcance de Arco: 350 \n Alcance de Visión: 500"
 END
 
 CONTROLBAR:ToolTipHaldirGoldenArrow
@@ -61598,20 +61681,17 @@ END
 
 //not7.0.0
 TOOLTIP:Haldir
-//"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.3s \n Ranged Attack Speed: 1.2-1.6s \n Splash Damage Radius: 10 \n Movement Speed: 65 \n Bow Range: 350 \n Vision Range: 500"
-"Damage Type: Hero / Hero Ranged \n Melee Attack Speed: 1.3s \n Ranged Attack Speed: 1.2-1.6s \n Splash Damage Radius: 10 \n Movement Speed: 60 \n Bow Range: 350 \n Vision Range: 500"
+"Tipo de Daño: Héroe / Héroe a Distancia \n Velocidad de Ataque Cuerpo a Cuerpo: 1.3s \n Velocidad de Ataque a Distancia: 1.2-1.6s \n Radio de Daño por Salpicadura: 10 \n Velocidad de Movimiento: 60 \n Alcance de Arco: 350 \n Alcance de Visión: 500"
 END
 
 //not7.0.0
 TOOLTIP:Thranduil
-//"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.5s \n Melee Attack Speed: 1s \n Movement Speed: 65 \n Bow Range: 400 \n Vision Range: 575"
-"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1.5s \n Melee Attack Speed: 1s \n Movement Speed: 60 \n Bow Range: 400 \n Vision Range: 575"
+"Tipo de Daño: Héroe a Distancia / Héroe \n Velocidad de Ataque a Distancia: 1.5s \n Velocidad de Ataque Cuerpo a Cuerpo: 1s \n Velocidad de Movimiento: 60 \n Alcance de Arco: 400 \n Alcance de Visión: 575"
 END
 
 //not7.0.0
 TOOLTIP:Legolas
-//"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1s \n Melee Attack Speed: 1s \n Knife Fighter Splash Damage Radius: 15 \n Movement Speed: 65 \n Bow Range: 380 \n Vision Range: 500"
-"Damage Type: Hero Ranged / Hero \n Ranged Attack Speed: 1s \n Melee Attack Speed: 1s \n Knife Fighter Splash Damage Radius: 15 \n Movement Speed: 60 \n Bow Range: 380 \n Vision Range: 500"
+"Tipo de Daño: Héroe a Distancia / Héroe \n Velocidad de Ataque a Distancia: 1s \n Velocidad de Ataque Cuerpo a Cuerpo: 1s \n Radio de Daño en Área de Luchador con Cuchillo: 15 \n Velocidad de Movimiento: 60 \n Alcance de Arco: 380 \n Alcance de Visión: 500"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde
@@ -61639,8 +61719,7 @@ END
 
 //not7.0.0
 TOOLTIP:OrcArchers
-//"Damage Type: Pierce \n Health: 125 \n Ranged Damage: 25 (Pierce) \n Upgraded Ranged Damage: 25 (Pierce) & 10 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 320 \n Vision Range: 400"
-"Damage Type: Pierce \n Health: 125 \n Ranged Damage: 25 (Pierce) \n Upgraded Ranged Damage: 30 (Pierce) & 10 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 50 \n Bow Range: 320 \n Vision Range: 400"
+"Tipo de Daño: Perforante \n Salud: 125 \n Daño a Distancia: 25 (Perforante) \n Daño a Distancia Mejorado: 30 (Perforante) & 10 (Llama) \n Velocidad de Ataque a Distancia: 1.5-2s \n Velocidad de Movimiento: 50 \n Alcance de Arco: 320 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
@@ -61680,14 +61759,12 @@ END
 
 //not7.0.0
 TOOLTIP:GoblinWarriors
-//"Damage Type: Slash \n Health: 50 \n Melee Damage: 12 (Slash) \n Upgraded Melee Damage: 24 (Slash) \n Melee Attack Speed: 0.76s \n Movement Speed: 65 \n Vision Range: 300"
-"Damage Type: Slash \n Health: 50 \n Melee Damage: 13 (Slash) \n Upgraded Melee Damage: 26 (Slash) \n Melee Attack Speed: 0.76s \n Movement Speed: 65 \n Vision Range: 300"
+"Tipo de Daño: Cortante \n Salud: 50 \n Daño Cuerpo a Cuerpo: 13 (Cortante) \n Daño Cuerpo a Cuerpo Mejorado: 26 (Cortante) \n Velocidad de Ataque Cuerpo a Cuerpo: 0.76s \n Velocidad de Movimiento: 65 \n Alcance de Visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:GoblinArchers
-//"Damage Type: Pierce \n Health: 100 \n Ranged Damage: 25 (Pierce) \n Upgraded Ranged Damage: 25 (Pierce) & 25 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 65 \n Bow Range: 300 \n Vision Range: 500"
-"Damage Type: Pierce \n Health: 100 \n Ranged Damage: 25 (Pierce) \n Upgraded Ranged Damage: 35 (Pierce) & 10 (Flame) \n Ranged Attack Speed: 1.5-2s \n Movement Speed: 65 \n Bow Range: 300 \n Vision Range: 500"
+"Tipo de Daño: Perforante \n Salud: 100 \n Daño a Distancia: 25 (Perforante) \n Daño a Distancia Mejorado: 35 (Perforante) & 10 (Llama) \n Velocidad de Ataque a Distancia: 1.5-2s \n Velocidad de Movimiento: 65 \n Alcance de Arco: 300 \n Alcance de Visión: 500"
 END
 
 CONTROLBAR:ToolTipPoisonArrows
@@ -61726,7 +61803,7 @@ END
 
 //not7.0.0
 TOOLTIP:Battlewagon
-"Damage Type: Cavalry \n Crush Damage: 180 (Crush) \n Melee Attack Speed: 1.5s \n Movement Speed: 85 \n Vision Range: 400 \n\n Axe Thrower Damage: 108 (Slash) \n Men of Dale Damage: 263 (Pierce) \n Phalanx Damage: 50 (Specialist) \n Hearth Heal Amount: 20 /2s"
+"Tipo de Daño: Caballería \n Daño por Aplastamiento: 180 (Aplastamiento) \n Velocidad de Ataque Cuerpo a Cuerpo: 1.5s \n Velocidad de Movimiento: 85 \n Alcance de Visión: 400 \n\n Daño del Lanzador de Hachas: 108 (Corte) \n Daño de los Hombres de Dale: 263 (Perforante) \n Daño de la Falange: 50 (Especialista) \n Cantidad de Curación del Hogar: 20 /2s"
 END
 
 OBJECT:OutpostDescription
@@ -62031,9 +62108,8 @@ CONTROLBAR:TooltipIsengardTavern
 "Entrena salvajes y salvajes lanzadores de hachas"
 END
 
-//not7.0.0
 CONTROLBAR:TooltipDireWolfHowl
-"Modifier Type: Spell \n Dire Wolves gain +15% Damage and +15% Armor \n Stacks with Buffs, Leadership, and other Spells \n Duration: 45s \n Recharge Time: 2m \n Left click to activate"
+"Tipo de Modificador: Hechizo \n Los Lobos Feroz ganan +15% de Daño y +15% de Armadura \n Se acumula con Mejoras, Liderazgo y otros Hechizos \n Duración: 45s \n Tiempo de Recarga: 2m \n Haz clic izquierdo para activar"
 END
 
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
@@ -62045,7 +62121,7 @@ END
 
 //not7.0.0
 TOOLTIP:GondorArchers
-"Damage Type: Pierce / Slash \n Health: 200 \n Ranged Damage: 40 (Pierce) \n Melee Damage: 40 (Slash) \n Upgraded Ranged Damage: 45 (Pierce) & 20 (Flame) \n Ranged Attack Speed: 1.5-2s \n Melee Attack Speed: 1.7s \n Movement Speed: 50 \n Bow Range: 330 \n Vision Range: 400"
+"Tipo de Daño: Perforante / Cortante \n Salud: 200 \n Daño a Distancia: 40 (Perforante) \n Daño Cuerpo a Cuerpo: 40 (Cortante) \n Daño a Distancia Mejorado: 45 (Perforante) y 20 (Llama) \n Velocidad de Ataque a Distancia: 1.5-2s \n Velocidad de Ataque Cuerpo a Cuerpo: 1.7s \n Velocidad de Movimiento: 50 \n Alcance de Arco: 330 \n Alcance de Visión: 400"
 END
 
 CONTROLBAR:AngmarDireWolfHowl
@@ -62183,8 +62259,7 @@ END
 
 //not7.0.0
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavationsPurchased
-//"Reduces the cost of Isengard structures and walls \n 1 Fortress with Excavations = 17% cheaper \n 2 Fortresses with Excavations = 21% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 29% cheaper \n 5 Fortresses with Excavations = 33% cheaper \n Upgrade Time: 15s \n \n This upgrade has already been purchased"
-"Reduces the cost of Isengard structures and walls \n Does not benefit Lookout Towers, Warg Sentries, and Fortresses \n 1 Fortress with Excavations = 17% cheaper \n 2 Fortresses with Excavations = 21% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 29% cheaper \n 5 Fortresses with Excavations = 33% cheaper \n Upgrade Time: 15s \n \n This upgrade has already been purchased"
+"Reduce el costo de las estructuras y muros de Isengard \n No beneficia a las Torres de Vigía, Centinelas Warg ni Fortalezas \n 1 Fortaleza con Excavaciones = 17% más barato \n 2 Fortalezas con Excavaciones = 21% más barato \n 3 Fortalezas con Excavaciones = 25% más barato \n 4 Fortalezas con Excavaciones = 29% más barato \n 5 Fortalezas con Excavaciones = 33% más barato \n Tiempo de mejora: 15s \n \n Esta mejora ya ha sido comprada"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
@@ -62251,7 +62326,7 @@ END
 
 //not7.0.0
 TOOLTIP:DwarvenAxeThrowers
-"Damage Type: Slash \n Health: 250 \n Ranged Damage: 40 (Slash) \n Upgraded Ranged Damage: 80 (Slash) \n Ranged Attack Speed: 2.63s \n Movement Speed: 40 \n Axe Throw Range: 275 \n Vision Range: 400"
+"Tipo de daño: Corte \n Salud: 250 \n Daño a distancia: 40 (Corte) \n Daño a distancia mejorado: 80 (Corte) \n Velocidad de ataque a distancia: 2.63s \n Velocidad de movimiento: 40 \n Alcance de lanzamiento de hacha: 275 \n Alcance de visión: 400"
 END
 
 CONTROLBAR:ToolTipToggleNoldorWarriorWeapons
@@ -62309,22 +62384,22 @@ END
 
 //not7.0.0
 TOOLTIP:Towerguards
-"Damage Type: Specialist \n Health: 400 \n Melee Damage: 70 (Specialist) \n Upgraded Melee Damage: 140 (Specialist) \n Melee Attack Speed: 1.5s \n Movement Speed: 50 \n Vision Range: 400"
+"Tipo de daño: Especialista \n Salud: 400 \n Daño cuerpo a cuerpo: 70 (Especialista) \n Daño cuerpo a cuerpo mejorado: 140 (Especialista) \n Velocidad de ataque cuerpo a cuerpo: 1.5s \n Velocidad de movimiento: 50 \n Alcance de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:WolfRiders
-"Damage Type: Cavalry \n Health: 300 \n Melee Damage: 50 (Cavalry) \n Crush Damage: 70 (Crush) \n Melee Attack Speed: 1.8s \n Movement Speed: 100 \n Vision Range: 400"
+"Tipo de daño: Caballería \n Salud: 300 \n Daño cuerpo a cuerpo: 50 (Caballería) \n Daño aplastante: 70 (Aplastante) \n Velocidad de ataque cuerpo a cuerpo: 1.8s \n Velocidad de movimiento: 100 \n Alcance de visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:UrukDeathbringers
-"Damage Type: Hero \n Health: 1300 \n Melee Damage: 250 (Hero) \n Melee Attack Speed: 1.57s \n Splash Damage Radius: 15 \n Movement Speed: 55 \n Vision Range: 200"
+"Tipo de daño: Héroe \n Salud: 1300 \n Daño cuerpo a cuerpo: 250 (Héroe) \n Velocidad de ataque cuerpo a cuerpo: 1.57s \n Radio de daño de área: 15 \n Velocidad de movimiento: 55 \n Alcance de visión: 200"
 END
 
 //not7.0.0
 TOOLTIP:HaradrimLancers
-"Damage Type: Cavalry \n Health: 400 \n Melee Damage: 75 (Cavalry) \n Crush Damage: 100 (Crush) \n Upgraded Melee Damage: 131 (Cavalry) \n Melee Attack Speed: 1.5s \n Movement Speed: 100 \n Vision Range: 300"
+"Tipo de daño: Caballería \n Salud: 400 \n Daño cuerpo a cuerpo: 75 (Caballería) \n Daño por aplastamiento: 100 (Aplastamiento) \n Daño cuerpo a cuerpo mejorado: 131 (Caballería) \n Velocidad de ataque cuerpo a cuerpo: 1.5s \n Velocidad de movimiento: 100 \n Alcance de visión: 300"
 END
 
 CONTROLBAR:ToolTipIstariLight
@@ -62349,14 +62424,12 @@ END
 
 //not7.0.0
 TOOLTIP:MouthofSauron
-"Damage Type: Hero \n Crush Damage: 160 (Crush) \n Melee Attack Speed: 1.5s \n Splash Damage Radius: 10 \n Movement Speed: 55 \n Mounted Movement Speed: 105 \n Vision Range: 300"
+"Tipo de daño: Héroe \n Daño por aplastamiento: 160 (Aplastamiento) \n Velocidad de ataque cuerpo a cuerpo: 1.5s \n Radio de daño de salpicadura: 10 \n Velocidad de movimiento: 55 \n Velocidad de movimiento montado: 105 \n Alcance de visión: 300"
 END
 
 //not7.0.0
 TOOLTIP:Corsairs
-//"Damage Type: Slash \n Health: 280 \n Melee Damage: 50 (Slash) \n Upgraded Melee Damage: 100 (Slash) \n Melee Attack Speed: 1.3s \n Movement Speed: 60 \n Vision Range: 300"
-//"Damage Type: Slash \n Health: 280 \n Melee Damage: 50 (Slash) \n Firebomb Damage: 10 (Flame) \n Upgraded Melee Damage: 100 (Slash) \n Firebomb Splash Damage Radius: 15 \n Melee Attack Speed: 1.5s \n Firebomb Attack Speed: 3.4s \n Movement Speed: 60 \n Firebomb Range: 100 \n Vision Range: 300"
-"Damage Type: Slash \n Health: 270 \n Melee Damage: 50 (Slash) \n Firebomb Damage: 30 (Flame) \n Upgraded Melee Damage: 100 (Slash) \n Firebomb Splash Damage Radius: 15 \n Melee Attack Speed: 1.5s \n Firebomb Attack Speed: 3.4s \n Movement Speed: 60 \n Firebomb Range: 250 \n Vision Range: 300"
+"Tipo de daño: Corte \n Salud: 270 \n Daño cuerpo a cuerpo: 50 (Corte) \n Daño de bomba incendiaria: 30 (Fuego) \n Daño cuerpo a cuerpo mejorado: 100 (Corte) \n Radio de daño de salpicadura de bomba incendiaria: 15 \n Velocidad de ataque cuerpo a cuerpo: 1.5s \n Velocidad de ataque de bomba incendiaria: 3.4s \n Velocidad de movimiento: 60 \n Alcance de bomba incendiaria: 250 \n Alcance de visión: 300"
 END
 
 // Maps //
@@ -62476,13 +62549,13 @@ END
 //not7.0.0
 TOOLTIP:GoblinCaveTroll
 //"Damage Type: Siege \n Crush Damage: 30 (Crush) \n Ranged Splash Damage Radius: 15 \n Melee Splash Damage Radius: 40 \n Melee Tree Splash Damage Radius: 50 \n Ranged Attack Speed: 2.67s \n Melee Attack Speed: 1.5s \n Melee Structure Attack Speed: 2s \n Melee Tree Attack Speed: 2.2s \n Movement Speed: 60 \n Rock Throw Range: 250 \n Vision Range: 400"
-"Tipo de Daño: Asedio \n Daño por Aplastamiento: 30 (Aplastamiento) \n Radio de Daño de Salpicadura a Distancia: 15 \n Radio de Daño de Salpicadura cuerpo a cuerpo: 40 \n Radio de Daño de Salpicadura a Árboles cuerpo a cuerpo: 50 \n Velocidad de Ataque a Distancia: 2.67s \n Velocidad de Ataque cuerpo a cuerpo: 1.5s \n Velocidad de Ataque cuerpo a cuerpo contra estructuras: 2s \n Velocidad de Ataque cuerpo a cuerpo contra árboles: 2.2s \n Velocidad de Movimiento: 60 \n Alcance de Lanzamiento de Piedra: 250 \n Alcance de Visión: 400"
+"Tipo de Daño: Asedio \n Daño por Aplastamiento: 30 \n Radio de Daño de Salpicadura a Distancia: 15 \n Radio de Daño de Salpicadura cuerpo a cuerpo: 40 \n Radio de Daño de Salpicadura a Árboles cuerpo a cuerpo: 50 \n Velocidad de Ataque a Distancia: 2.67s \n Velocidad de Ataque cuerpo a cuerpo: 1.5s \n Velocidad de Ataque cuerpo a cuerpo contra estructuras: 2s \n Velocidad de Ataque cuerpo a cuerpo contra árboles: 2.2s \n Velocidad de Movimiento: 60 \n Alcance de Lanzamiento de Piedra: 250 \n Alcance de Visión: 400"
 END
 
 //not7.0.0
 TOOLTIP:MordorMountainTroll
 //"Damage Type: Siege \n Crush Damage: 30 (Crush) \n Ranged Splash Damage Radius: 15 \n Melee Splash Damage Radius: 40 \n Melee Tree Splash Damage Radius: 50 \n Ranged Attack Speed: 2.67s \n Melee Attack Speed: 1.5s \n Melee Structure Attack Speed: 2s \n Melee Tree Attack Speed: 2.2s \n Movement Speed: 60 \n Rock Throw Range: 500 \n Vision Range: 400"
-"Tipo de Daño: Asedio \n Daño por Aplastamiento: 30 (Aplastamiento) \n Radio de Daño de Salpicadura a Distancia: 15 \n Radio de Daño de Salpicadura cuerpo a cuerpo: 40 \n Radio de Daño de Salpicadura a Árboles cuerpo a cuerpo: 50 \n Velocidad de Ataque a Distancia: 2.67s \n Velocidad de Ataque cuerpo a cuerpo: 1.5s \n Velocidad de Ataque cuerpo a cuerpo contra estructuras: 2s \n Velocidad de Ataque cuerpo a cuerpo contra árboles: 2.2s \n Velocidad de Movimiento: 60 \n Alcance de Lanzamiento de Piedra: 500 \n Alcance de Visión: 400"
+"Tipo de Daño: Asedio \n Daño por Aplastamiento: 30 \n Radio de Daño de Salpicadura a Distancia: 15 \n Radio de Daño de Salpicadura cuerpo a cuerpo: 40 \n Radio de Daño de Salpicadura a Árboles cuerpo a cuerpo: 50 \n Velocidad de Ataque a Distancia: 2.67s \n Velocidad de Ataque cuerpo a cuerpo: 1.5s \n Velocidad de Ataque cuerpo a cuerpo contra estructuras: 2s \n Velocidad de Ataque cuerpo a cuerpo contra árboles: 2.2s \n Velocidad de Movimiento: 60 \n Alcance de Lanzamiento de Piedra: 500 \n Alcance de Visión: 400"
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderHorde
@@ -62574,8 +62647,7 @@ END
 
 //not7.0.0
 OBJECT:ElvenBattleTowerDescription
-//"Defensive tower that fires arrows at nearby enemies"
-"Damage Type: Structural \n Upgraded Ranged Damage: 75 (Structural) & 20 (Magic) \n Bow Range: 250 \n Vision Range: 650 \n Repair Delay: 1m \n Repair Amount: 0.4%/s"
+"Tipo de daño: Estructural \n Daño a distancia mejorado: 75 (Estructural) y 20 (Mágico) \n Alcance de arco: 250 \n Alcance de visión: 650 \n Retardo de reparación: 1m \n Cantidad de reparación: 0.4%/s"
 END
 
 CONTROLBAR:ToolTipHourOfTheWitchKing
@@ -62673,13 +62745,13 @@ END
 VALUE:ThirdX
 //"1/3X"
 //"Random Teams"
-"Equipos Aleatorios (MP)"
+"Equipos Aleatorios (MultiPlayer)"
 END
 
 VALUE:8X
 //"8X"
 //"Higher FPS Cap"
-"Máximo FPS Mejorado (SP)"
+"Más FPS (Single Player)"
 END
 
 VALUE:HalfX
@@ -62772,3 +62844,4 @@ END
 
 
 //buscar linea: //not7.0.0 para seguir traduciendo
+//fix CONTROLBAR:ToolTipBuildGrandHarvestUpgrade

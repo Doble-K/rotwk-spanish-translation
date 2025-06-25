@@ -37,6 +37,11 @@ You may use, modify, and distribute it, but derivatives must remain open source.
 Suggestions and improvements are welcome!
 Fork the repo and send a pull request.
 
+## Credits
+
+@Epsilon - Ultimategladia
+@Kavalier - Doble K
+
 </details>
 
 <details>
@@ -69,5 +74,10 @@ Puedes usar, modificar y distribuir el proyecto, pero las obras derivadas deben 
 
 Se agradecen sugerencias y mejoras.
 Haz un fork del repositorio y envía un pull request.
+
+## Creditos
+
+@Epsilon - Ultimategladia
+@Kavalier - Doble K
 
 </details>
